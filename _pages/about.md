@@ -13,6 +13,8 @@ profile:
 news: true
 social: true
 ---
+** I am looking for a highly motivated student for a fully-funded PhD. More info [here](https://valerio-terragni.github.io/phd-position-metamorphic-testing-auckland/)**
+
 I am a Lecturer in the [Department of Electrical, Computer, and Software Engineering](https://www.auckland.ac.nz/en/engineering/about-the-faculty/electrical-computer-and-software-engineering.html) at [The University of Auckland](https://www.auckland.ac.nz/en.html), New Zealand. The Lecturer title is equivalent to Assistant Professor in Asian, European, and North American universities.
 
 
