@@ -13,15 +13,6 @@ echo "Deploying..."
 echo "Source branch: $SRC_BRANCH"
 echo "Deploy branch: $DEPLOY_BRANCH"
 
-if [ `git branch | grep $DEPLOY_BRANCH | tr ' ' '\n' | tail -1` ]
-then
-    echo "Your are on the wrong branch!"
-    echo "You should be in the development branch: $SRC_BRANCH"
-    echo "please do: git checkout $SRC_BRANCH"
-    echo "Aborting."
-    [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
-fi
-
 # Check if there are any uncommitted changes
 if ! git diff-index --quiet HEAD --; then
     echo "Changes to the following files are uncommitted:"
