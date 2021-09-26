@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Valerio Terragni | Testing and Analysis of Concurrent Programs</title>
+  <meta name="description" content="">
+
+  
+
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/projects/1-concurrency/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <a class="page-link" href="/">Dr. Valerio <strong>Terragni</strong></a>
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"></path>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"></path>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="/">about</a>
+
+        <!-- Blog -->
+        <!--<a class="page-link" href="/blog/">blog</a>-->
+
+        <!-- Pages -->
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="page-link" href="/publications/">publications</a>
+          
+        
+          
+            <a class="page-link" href="/service/">service</a>
+          
+        
+          
+            <a class="page-link" href="/teaching/">teaching</a>
+          
+        
+          
+        
+          
+        
+
+        <!-- CV link -->
+        <!-- <a class="page-link" href="/assets/pdf/CV.pdf">vitae</a> -->
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Testing and Analysis of Concurrent Programs</h1>
+    <h5 class="post-description"></h5>
+  </header>
+
+  <article class="post-content Testing and Analysis of Concurrent Programs clearfix">
+    <p>Multi-core processors are now pervasive, spanning from embedded systems and mobile devices, to PCs, all the way to high-end servers and distributed systems. To unleash the computing power of multi-core processors, developers have to write concurrent (multi-threaded) programs. However, writing correct and efficient concurrent programs is difficult and error-prone.</p>
+
+<p>An effective approach to verify the correctness of object-oriented concurrent classes consists of automatically generating concurrent tests and checking if they exhibit concurrency failures by exploring their interleaving spaces. A concurrent test consists of multiple concurrently executing threads that exercise the public interface of a class under test. The high cost of exploring interleaving spaces poses great challenges when generating concurrent tests.</p>
+
+<div class="img_row">
+    <img class="col three left" src="/assets/img/test-gen-concurrency1.png">
+</div>
+
+<p>During my PhD and Post-doc I proposed new techniques to effectively generate concurrent tests. Currently, I am working on fruther improve the effectiveness of concurrent test generators.</p>
+
+<p>Related publications: <a class="citation" href="#terragni-icst-2019">[1, 2, 3, 4, 5]</a></p>
+
+<ol class="bibliography">
+<li>
+<span class="fa-li"><i>ICST 2019</i></span>
+
+
+
+<div id="terragni-icst-2019">
+  
+      
+        <span class="title">                <a href="http://www.doi.org/10.1109/ICST.2019.00034" target="_blank">Coverage-Driven Test Generation for Thread-Safe Classes via Parallel
+               and Conflict Dependencies</a> 
+</span>
+  
+    <span class="author">
+      
+        
+          
+            
+              <strong>Valerio Terragni</strong>,
+            
+          
+        
+      
+        
+          
+            
+              
+               
+                  <a href="https://www.inf.usi.ch/faculty/pezze/?_ga=2.197203431.953027644.1589099781-2053495229.1518703132" target="_blank">  Mauro Pezzè</a>, 
+                
+              
+            
+          
+        
+      
+        
+          
+            
+              
+               
+                  Francesco Adalberto Bianchi
+                
+              
+            
+          
+        
+      
+
+    
+    </span>
+
+
+    <span class="periodical">
+    
+          
+      <em>In Proceedings of the 12th IEEE Conference on Software Testing, Validation and Verification</em>
+    
+    
+
+    
+    <em>, pages 264-275</em>
+    
+
+    </span>
+    
+        <span class="periodical">
+      <strong> <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> IEEE TCSE Distinguished Paper Award  </strong>
+        </span>
+
+    
+
+  
+
+  <span class="links">
+    [<a class="bibtex">BIBTEX</a>]
+  
+    [<a class="abstract">Abstract</a>]
+  
+  
+  
+  
+      
+    [<a href="/assets/pdf/terragni-icst-2019.pdf" target="_blank">PDF</a>]
+      
+  
+  
+  
+
+            
+    [<a href="/assets/pdf/terragni-icst-2019-slides.pdf" target="_blank">Slides</a>]
+  
+        
+      
+  
+      
+    [<a href="http://www.doi.org/10.1109/ICST.2019.00034" target="_blank">DOI</a>]
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>Thread-safe classes are common in concurrent object-oriented programs. Testing such classes is important to ensure the reliability of the concurrent programs that rely on them. Recently, researchers have proposed the automated generation of concurrent (multi-threaded) tests to expose concurrency faults in thread-safe classes (thread-safety violations). However, generating fault-revealing concurrent tests within an affordable time-budget is difficult due to the huge search space of possible concurrent tests. In this paper, we present DEPCON, an approach to effectively reduce the search space of concurrent tests by means of both parallel and conflict dependency analyses. DEPCON is based on the intuition that only methods that can both interleave (parallel dependent) and access the same shared memory locations (conflict dependent) can lead to thread-safety violations when concurrently executed. DEPCON implements an efficient static analysis to compute the parallel and conflict dependencies among the methods of a class and uses the computed dependencies to steer the generation of tests towards concurrent tests that exhibit the computed dependencies. We evaluated DEPCON by experimenting with a prototype implementation for Java programs on a set of thread-safe classes with known concurrency faults. The experimental results show that DEPCON is more effective in exposing concurrency faults than state-of-theart techniques.</p>
+  </span>
+  
+  <span class="bibtex hidden2">
+    <p>@inproceedings{terragni-icst-2019,
+  author = {Terragni, Valerio and Pezz{\`{e}}, Mauro and Bianchi, Francesco Adalberto},
+  title = {Coverage-Driven Test Generation for Thread-Safe Classes via Parallel
+                 and Conflict Dependencies},
+  booktitle = {12th {IEEE} Conference on Software Testing, Validation and Verification},
+  pages = {264-275},
+  year = {2019},
+  doi = {10.1109/ICST.2019.00034}
+}
+</p>
+  </span>
+</div>
+</li>
+<li>
+<span class="fa-li"><i>ASE 2018</i></span>
+
+
+
+<div id="terragni-ase-2018">
+  
+      
+        <span class="title">                <a href="http://www.doi.org/10.1145/3238147.3238224" target="_blank">Effectiveness and Challenges in Generating Concurrent Tests for Thread-Safe Classes</a> 
+</span>
+  
+    <span class="author">
+      
+        
+          
+            
+              <strong>Valerio Terragni</strong>,
+            
+          
+        
+      
+        
+          
+            
+              
+               
+                  <a href="https://www.inf.usi.ch/faculty/pezze/?_ga=2.197203431.953027644.1589099781-2053495229.1518703132" target="_blank">  Mauro Pezzè</a> 
+                
+              
+            
+          
+        
+      
+
+    
+    </span>
+
+
+    <span class="periodical">
+    
+          
+      <em>In Proceedings of the 33rd ACM/IEEE International Conference on Automated
+               Software Engineering</em>
+    
+    
+
+    
+    <em>, pages 64-75</em>
+    
+
+    </span>
+    
+
+  
+
+  <span class="links">
+    [<a class="bibtex">BIBTEX</a>]
+  
+    [<a class="abstract">Abstract</a>]
+  
+  
+  
+  
+      
+    [<a href="/assets/pdf/terragni-ase-2018.pdf" target="_blank">PDF</a>]
+      
+  
+  
+  
+
+            
+    [<a href="/assets/pdf/terragni-ase-2018-slides.pdf" target="_blank">Slides</a>]
+  
+        
+      
+  
+      
+    [<a href="http://www.doi.org/10.1145/3238147.3238224" target="_blank">DOI</a>]
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>Developing correct and efficient concurrent programs is difficult and error-prone, due to the complexity of thread synchronization. Often, developers alleviate such problem by relying on thread-safe classes, which encapsulate most synchronization-related challenges. Thus, testing such classes is crucial to ensure the reliability of the concurrency aspects of programs. Some recent techniques and corresponding tools tackle the problem of testing thread-safe classes by automatically generating concurrent tests. In this paper, we present a comprehensive study of the state-of-the-art techniques and an independent empirical evaluation of the publicly available tools. We conducted the study by executing all tools on the JaConTeBe benchmark that contains 47 well-documented concurrency faults. Our results show that 8 out of 47 faults (17%) were detected by at least one tool. By studying the issues of the tools and the generated tests, we derive insights to guide future research on improving the effectiveness of automated concurrent test generation.</p>
+  </span>
+  
+  <span class="bibtex hidden2">
+    <p>@inproceedings{terragni-ase-2018,
+  author = {Terragni, Valerio and Pezz{\`{e}}, Mauro},
+  title = {Effectiveness and Challenges in Generating Concurrent Tests for Thread-Safe Classes},
+  booktitle = {33rd {ACM/IEEE} International Conference on Automated
+                 Software Engineering},
+  pages = {64-75},
+  doi = {10.1145/3238147.3238224},
+  year = {2018}
+}
+</p>
+  </span>
+</div>
+</li>
+<li>
+<span class="fa-li"><i>ESEC/ FSE 2017</i></span>
+
+
+
+<div id="bianchi-fse-2017">
+  
+      
+        <span class="title">                <a href="http://www.doi.org/10.1145/3106237.3106292" target="_blank">Reproducing Concurrency Failures from Crash Stacks</a> 
+</span>
+  
+    <span class="author">
+      
+        
+          
+            
+              
+               
+                  Francesco A. Bianchi,
+              
+              
+            
+          
+        
+      
+        
+          
+            
+              
+               
+                  <a href="https://www.inf.usi.ch/faculty/pezze/?_ga=2.197203431.953027644.1589099781-2053495229.1518703132" target="_blank">  Mauro Pezzè</a>, 
+                
+              
+            
+          
+        
+      
+        
+          
+            
+              <strong>Valerio Terragni</strong>
+            
+          
+        
+      
+
+    
+      (Authors are listed alphabetically)
+    
+    </span>
+
+
+    <span class="periodical">
+    
+          
+      <em>In Proceedings of the 11th Joint Meeting on Foundations of Software
+               Engineering</em>
+    
+    
+
+    
+    <em>, pages 705-716</em>
+    
+
+    </span>
+    
+
+  
+
+  <span class="links">
+    [<a class="bibtex">BIBTEX</a>]
+  
+    [<a class="abstract">Abstract</a>]
+  
+  
+  
+  
+      
+    [<a href="/assets/pdf/bianchi-fse-2017.pdf" target="_blank">PDF</a>]
+      
+  
+  
+  
+
+            
+    [<a href="/assets/pdf/bianchi-fse-2017-slides.pdf" target="_blank">Slides</a>]
+  
+        
+      
+  
+    [<a href="http://star.inf.usi.ch/#/software-data/2" target="_blank">Replication Package</a>]
+  
+      
+    [<a href="http://www.doi.org/10.1145/3106237.3106292" target="_blank">DOI</a>]
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>Reproducing  field failures is the first essential step for understanding, localizing and removing faults. Reproducing concurrency field failures is hard due to the need of synthesizing a test code jointly with a thread interleaving that induce the failure in the presence of limited information from the field. Current techniques for reproducing concurrency failures focus on identifying failure-inducing interleavings, leaving largely open the problem of synthesizing the test code that manifests such interleavings. In this paper, we present ConCrash, a technique to automatically generate test codes that reproduce concurrency failures that violate thread-safety from crash stacks, which commonly summarize the conditions of field failures. ConCrash efficiently explores the huge space of possible test codes to identify a failure-inducing one by using a suitable set of search pruning strategies. Combined with existing techniques for exploring interleavings, ConCrash automatically reproduces a given concurrency failure that violates the thread-safety of a class by identifying both a failure-inducing test code and corresponding interleaving. In the paper, we define the ConCrash approach, present a prototype implementation of ConCrash, and discuss the experimental results that we obtained on a known set of ten field failures that witness the effectiveness of the approach.</p>
+  </span>
+  
+  <span class="bibtex hidden2">
+    <p>@inproceedings{bianchi-fse-2017,
+  author = {Bianchi, Francesco A. and Pezz{\`{e}}, Mauro and Terragni, Valerio},
+  title = {Reproducing Concurrency Failures from Crash Stacks},
+  booktitle = {11th Joint Meeting on Foundations of Software
+                 Engineering},
+  pages = {705-716},
+  year = {2017},
+  doi = {10.1145/3106237.3106292}
+}
+</p>
+  </span>
+</div>
+</li>
+<li>
+<span class="fa-li"><i>ICSE 2016</i></span>
+
+
+
+<div id="terragni-icse-2016">
+  
+      
+        <span class="title">                <a href="http://www.doi.org/10.1145/2884781.2884876" target="_blank">Coverage-driven Test Code Generation for Concurrent Classes</a> 
+</span>
+  
+    <span class="author">
+      
+        
+          
+            
+              <strong>Valerio Terragni</strong>,
+            
+          
+        
+      
+        
+          
+            
+              
+                <a href="https://www.cse.ust.hk/~scc/" target="_blank">Shing-Chi Cheung</a>
+              
+            
+          
+        
+      
+
+    
+    </span>
+
+
+    <span class="periodical">
+    
+          
+      <em>In Proceedings of the 38th ACM/IEEE International Conference on Software Engineering</em>
+    
+    
+
+    
+    <em>, pages 1121-1132</em>
+    
+
+    </span>
+    
+
+  
+
+  <span class="links">
+    [<a class="bibtex">BIBTEX</a>]
+  
+    [<a class="abstract">Abstract</a>]
+  
+  
+  
+  
+      
+    [<a href="/assets/pdf/terragni-icse-2016.pdf" target="_blank">PDF</a>]
+      
+  
+  
+  
+
+            
+    [<a href="/assets/pdf/terragni-icse-2016-slides.pdf" target="_blank">Slides</a>]
+  
+        
+      
+  
+      
+    [<a href="http://www.doi.org/10.1145/2884781.2884876" target="_blank">DOI</a>]
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>Previous techniques on concurrency testing have mainly focused on exploring the interleaving space of manually written test code to expose faulty interleavings of shared memory accesses. These techniques assume the availability of failure-inducing tests. In this paper, we present AutoConTest, a coverage-driven approach to generate effective concurrent test code that achieve high interleaving coverage. AutoConTest consists of three components. First, it computes the coverage requirements dynamically and iteratively during sequential test code generation, using a coverage metric that captures the execution context of shared memory accesses. Second, it smartly selects these sequential codes based on the computed result and assembles them for concurrent tests, achieving increased context-sensitive interleaving coverage. Third, it explores the newly covered interleavings. We have implemented AutoConTest as an automated tool and evaluated it using 6 real-world concurrent Java subjects. The results show that AutoConTest is able to generate effective concurrent tests that achieve high interleaving coverage and expose concurrency faults quickly. AutoConTest took less than 65 seconds (including program analysis, test generation and execution) to expose the faults in the program subjects.</p>
+  </span>
+  
+  <span class="bibtex hidden2">
+    <p>@inproceedings{terragni-icse-2016,
+  author = {Terragni, Valerio and Cheung, Shing{-}Chi},
+  title = {Coverage-driven Test Code Generation for Concurrent Classes},
+  booktitle = {38th {ACM/IEEE} International Conference on Software Engineering},
+  pages = {1121-1132},
+  year = {2016},
+  doi = {10.1145/2884781.2884876}
+}
+</p>
+  </span>
+</div>
+</li>
+<li>
+<span class="fa-li"><i>ICSE 2015</i></span>
+
+
+
+<div id="terragni-icse-2015">
+  
+      
+        <span class="title">                <a href="http://www.doi.org/10.1109/ICSE.2015.45" target="_blank">RECONTEST: Effective Regression Testing of Concurrent Programs</a> 
+</span>
+  
+    <span class="author">
+      
+        
+          
+            
+              <strong>Valerio Terragni</strong>,
+            
+          
+        
+      
+        
+          
+            
+              
+                <a href="https://www.cse.ust.hk/~scc/" target="_blank">Shing-Chi Cheung</a>, 
+              
+            
+          
+        
+      
+        
+          
+            
+              
+               
+                  Charles Zhang
+                
+              
+            
+          
+        
+      
+
+    
+    </span>
+
+
+    <span class="periodical">
+    
+          
+      <em>In Proceedings of the 37th IEEE/ACM International Conference on Software Engineering</em>
+    
+    
+
+    
+    <em>, pages 246–256</em>
+    
+
+    </span>
+    
+
+  
+
+  <span class="links">
+    [<a class="bibtex">BIBTEX</a>]
+  
+    [<a class="abstract">Abstract</a>]
+  
+  
+  
+  
+      
+    [<a href="/assets/pdf/terragni-icse-2015.pdf" target="_blank">PDF</a>]
+      
+  
+  
+  
+
+            
+    [<a href="/assets/pdf/terragni-icse-2015-slides.pdf" target="_blank">Slides</a>]
+  
+        
+      
+  
+      
+    [<a href="http://www.doi.org/10.1109/ICSE.2015.45" target="_blank">DOI</a>]
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>Concurrent programs proliferate as multi-core technologies advance. As a result, the conventional approach that selects a sub-set of test cases for regression testing without considering interleavings is insufficient. In this paper we present RECONTEST to address the problem by selecting the new interleavings that arise due to code changes. These interleavings must be explored in order to uncover regression bugs. RECONTEST efficiently selects new interleavings by first identifying shared memory accesses that are affected by the changes, and then exploring only those problematic interleavings that contain at least one of these accesses.
+We have implemented RECONTEST as an automated  tool and evaluated it using 13 real-world concurrent program subjects. Our results show that RECONTEST can significantly reduce the regression testing cost without missing any faulty interleavings induced by code changes.</p>
+  </span>
+  
+  <span class="bibtex hidden2">
+    <p>@inproceedings{terragni-icse-2015,
+  author = {Terragni, Valerio and Cheung, Shing{-}Chi and Zhang, Charles},
+  title = {{RECONTEST:} Effective Regression Testing of Concurrent Programs},
+  booktitle = {37th {IEEE/ACM} International Conference on Software Engineering},
+  pages = {246--256},
+  year = {2015},
+  doi = {10.1109/ICSE.2015.45}
+}
+</p>
+  </span>
+</div>
+</li>
+</ol>
+
+
+  </article>
+
+  
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    © Copyright 2021 Valerio Terragni.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'G-VYCMDXQ2KX', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+
+</html>

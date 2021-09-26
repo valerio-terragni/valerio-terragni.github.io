@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+
+# Run this script to deploy the webiste to Github Pages
+
+SRC_BRANCH="dev"
+DEPLOY_BRANCH="main"
+REPO_ADDRESS="https://github.com/valerio-terragni/valerio-terragni.github.io.git"
+
+# Exit if any subcommand fails
+set -e
+
+echo "Deploying..."
+echo "Source branch: $SRC_BRANCH"
+echo "Deploy branch: $DEPLOY_BRANCH"
+
+# Check if there are any uncommitted changes
+if ! git diff-index --quiet HEAD --; then
+    echo "Changes to the following files are uncommitted:"
+    git diff-index --name-only HEAD --
+    echo "Please commit the changes before proceeding."
+    echo "Aborting."
+    [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
+fi
+
+
+# Build site
+bundle exec jekyll build
+
+# get dev repo
+rm -rf ./tmp-dev
+git clone --depth 1 --branch $SRC_BRANCH $REPO_ADDRESS tmp-dev
+cd ./tmp-dev
+# build website
+bundle exec jekyll build
+cd ..
+
+# get deploy repo
+rm -rf ./tmp-deploy
+git clone --depth 1 $REPO_ADDRESS tmp-deploy
+# remove old files
+find ./tmp-deploy -mindepth 1 -maxdepth 1 ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' -exec rm -rf {} \;
+# copy new website files
+mv ./tmp-dev/_site/* ./tmp-deploy
+# remove tmp folder
+rm -rf ./tmp-dev
+
+# Push to DEPLOY_BRANCH
+cd ./tmp-deploy
+git add -fA
+git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
+git push
+cd ..
+rm -rf ./tmp-deploy
+
+echo "Deployed successfully!!"
+
+exit 0
+

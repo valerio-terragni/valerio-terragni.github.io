@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Valerio Terragni | Analysis of Crowd-generated code</title>
+  <meta name="description" content="">
+
+  
+
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/projects/5-code-snippets/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <a class="page-link" href="/">Dr. Valerio <strong>Terragni</strong></a>
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="/">about</a>
+
+        <!-- Blog -->
+        <!--<a class="page-link" href="/blog/">blog</a>-->
+
+        <!-- Pages -->
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="page-link" href="/publications/">publications</a>
+          
+        
+          
+            <a class="page-link" href="/service/">service</a>
+          
+        
+          
+            <a class="page-link" href="/teaching/">teaching</a>
+          
+        
+          
+        
+          
+        
+
+        <!-- CV link -->
+        <!-- <a class="page-link" href="/assets/pdf/CV.pdf">vitae</a> -->
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Analysis of Crowd-generated code</h1>
+    <h5 class="post-description"></h5>
+  </header>
+
+  <article class="post-content Analysis of Crowd-generated code clearfix">
+    <p>During my PhD, I also worked on the analysis of online code snippets found in developers’ forums, such as www.stackoverflow.com. Over time, StackOverflow  has collected millions of high-quality code snippets, which provide valuable resources for code reuse.  Recent surveys reported that developers search for code snippets in StackOverflow frequently and extensively.</p>
+
+<p>However, there is a major obstacle in reusing such code snippets. The majority of code snippets in  StackOverflow do not compile indicating that manual effort is required to make them compilable. To reduce such manual effort, I developed CSnippex, the first technique that automatically turns code snippets found in StackOverflow into compilable code. I publicly released the tool and the compilable code snippets http://sccpu2.cse.ust.hk/csnippex/index.html obtained by analyzing 491,906 StackOverflow pages.</p>
+
+<p>Currently, I am working on how to make such code snippets reusable.</p>
+
+<p>Related publications: <a class="citation" href="#terragni-ase-2021">[1, 2]</a></p>
+
+<ol class="bibliography"><li><span class="fa-li"><i>ASE 2021</i></span>
+
+
+
+<div id="terragni-ase-2021">
+  
+      
+    <span class="title">APIzation: Generating Reusable APIs from StackOverflow Code Snippets</span>
+    
+    <span class="author">
+      
+        
+          
+            
+              <strong>Valerio Terragni</strong>,
+            
+          
+        
+      
+        
+          
+            
+              
+                <a href="https://www.ifi.uzh.ch/en/seal/people/salza.html" target="_blank">Pasquale Salza</a>
+              
+            
+          
+        
+      
+
+    
+    </span>
+
+
+    <span class="periodical">
+    
+          
+      <em>In Proceedings of the 36th IEEE/ACM International Conference on Automated Software Engineering</em>
+    
+    
+
+    
+
+    </span>
+    
+
+  
+
+  <span class="links">
+    [<a class="bibtex">BIBTEX</a>]
+  
+    [<a class="abstract">Abstract</a>]
+  
+  
+  
+  
+      
+    [<a href="/assets/pdf/terragni-ase-2021.pdf" target="_blank">PDF</a>]
+      
+  
+  
+  
+
+      
+  
+    [<a href="https://doi.org/10.5281/zenodo.5236305" target="_blank">Replication Package</a>]
+  
+      
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>Developer forums like StackOverflow have become essential resources to modern software development practices. However, many code snippets lack a well-defined method declaration, and thus they are often incomplete for immediate reuse. Developers must adapt the retrieved code snippets by parameterizing the variables involved and identifying the return value. This activity, which we call APIzation of a code snippet, can be tedious and time-consuming. In this paper, we present APIZATOR to perform APIzations of JAVA code snippets automatically. APIZATOR is grounded by four common patterns that we extracted by studying real APIzations in GitHub. APIZATOR presents a static analysis algorithm that automatically extracts the method parameters and return statements. We evaluated APIZATOR with a ground-truth of 200 APIzations collected from 20 developers. For 113 (56.50 %) and 115 (57.50%) APIzations, APIZATOR and the developers extracted identical parameters and return statements, respectively. For 163 (81.50 %) APIzations, either the parameters or the return statements were identical.
+  </p>
+  </span>
+  
+  <span class="bibtex hidden2">
+    <p>@inproceedings{terragni-ase-2021,
+  author = {Terragni, Valerio and Salza, Pasquale},
+  title = {{APIzation: Generating Reusable APIs from StackOverflow Code Snippets}},
+  booktitle = {36th IEEE/ACM International Conference on Automated Software Engineering},
+  year = {2021}
+}
+</p>
+  </span>
+</div>
+</li>
+<li><span class="fa-li"><i>ISSTA 2016</i></span>
+
+
+
+<div id="terragni-issta-2016">
+  
+      
+        <span class="title">                <a href="http://www.doi.org/10.1145/2931037.2931058" target="_blank">CSNIPPEX: Automated Synthesis of Compilable Code Snippets from Q&amp;A
+               Sites</a> 
+</span>
+  
+    <span class="author">
+      
+        
+          
+            
+              <strong>Valerio Terragni</strong>,
+            
+          
+        
+      
+        
+          
+            
+              
+                <a href="https://yepangliu.github.io/" target="_blank">Yepang Liu</a>, 
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                <a href="https://www.cse.ust.hk/~scc/" target="_blank">Shing-Chi Cheung</a>
+              
+            
+          
+        
+      
+
+    
+    </span>
+
+
+    <span class="periodical">
+    
+          
+      <em>In Proceedings of the 25th International Symposium on Software Testing
+               and Analysis</em>
+    
+    
+
+    
+    <em>, pages 118-129</em>
+    
+
+    </span>
+    
+
+  
+
+  <span class="links">
+    [<a class="bibtex">BIBTEX</a>]
+  
+    [<a class="abstract">Abstract</a>]
+  
+  
+  
+  
+      
+    [<a href="/assets/pdf/terragni-issta-2016.pdf" target="_blank">PDF</a>]
+      
+  
+  
+  
+
+            
+    [<a href="/assets/pdf/terragni-issta-2016-slides.pdf" target="_blank">Slides</a>]
+  
+        
+      
+  
+    [<a href="http://sccpu2.cse.ust.hk/csnippex/index.html" target="_blank">Replication Package</a>]
+  
+      
+    [<a href="http://www.doi.org/10.1145/2931037.2931058" target="_blank">DOI</a>]
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>Popular Q&amp;A sites like StackOverflow have collected numerous code snippets. However, many of them do not have complete type information, making them uncompilable and inapplicable to various software engineering tasks. This paper analyzes this problem, and proposes a technique CSNIPPEX to automatically convert code snippets into compilable Java source code files by resolving external dependencies, generating import declarations, and fixing syntactic errors. We implemented CSNIPPEX as a plug-in for Eclipse and evaluated it with 242,175 StackOverflow posts that contain code snippets. CSNIPPEX successfully synthesized compilable Java files for 40,410 of them. It was also able to effectively recover import declarations for each post with a precision of 91.04% in a couple of seconds.</p>
+  </span>
+  
+  <span class="bibtex hidden2">
+    <p>@inproceedings{terragni-issta-2016,
+  author = {Terragni, Valerio and Liu, Yepang and Cheung, Shing{-}Chi},
+  title = {{CSNIPPEX:} Automated Synthesis of Compilable Code Snippets from Q{\&amp;}A
+                 Sites},
+  booktitle = {25th International Symposium on Software Testing
+                 and Analysis},
+  pages = {118-129},
+  year = {2016},
+  doi = {10.1145/2931037.2931058}
+}
+</p>
+  </span>
+</div>
+</li></ol>
+
+  </article>
+
+  
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2021 Valerio Terragni.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'G-VYCMDXQ2KX', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+
+</html>
