@@ -1,0 +1,49 @@
+.profile {
+    img {
+        box-shadow: 10 10 20px $grey-color;
+        padding-left: 15px;
+        width: 100%;
+    }
+}
+
+.address {
+    font-family: monospace;
+    
+    padding-left: 15px;
+    p { margin: 0; }
+}
+
+.news {
+    border-top: 1px solid $grey-color-light;
+    margin-top: 15px;
+    padding-top: 20px;
+
+    h2 {
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    table {
+        display: block;
+        height: 225px;
+        overflow-y: scroll;
+        border-collapse: collapse;
+        width: 100%;
+
+        .date { width: 19%; }
+        .announcement { width: 81%; }
+
+        tr { text-align: left; }
+        td {
+            padding: 6px 0;
+            vertical-align: top;
+            border: none;
+        }
+    }
+}
+
+.social {
+    border-top: 1px solid $grey-color-light;
+    margin-top: 50px;
+    padding-top: 20px;
+}

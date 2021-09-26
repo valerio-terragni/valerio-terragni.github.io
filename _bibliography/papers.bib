@@ -1,0 +1,399 @@
+
+@inproceedings{terragni-ase-2021,
+  author = {
+  Valerio Terragni and Pasquale Salza
+  },
+  title = {{APIzation: Generating Reusable APIs from StackOverflow Code Snippets}},
+  booktitle = {36th IEEE/ACM International Conference on Automated Software Engineering},
+  year = {2021},
+  series = {ASE 2021},
+  ordering = 8,
+  pdf = {terragni-ase-2021.pdf},
+  abstract = {Developer forums like StackOverflow have become essential resources to modern software development practices. However, many code snippets lack a well-defined method declaration, and thus they are often incomplete for immediate reuse. Developers must adapt the retrieved code snippets by parameterizing the variables involved and identifying the return value. This activity, which we call APIzation of a code snippet, can be tedious and time-consuming. In this paper, we present APIZATOR to perform APIzations of JAVA code snippets automatically. APIZATOR is grounded by four common patterns that we extracted by studying real APIzations in GitHub. APIZATOR presents a static analysis algorithm that automatically extracts the method parameters and return statements. We evaluated APIZATOR with a ground-truth of 200 APIzations collected from 20 developers. For 113 (56.50 %) and 115 (57.50%) APIzations, APIZATOR and the developers extracted identical parameters and return statements, respectively. For 163 (81.50 %) APIzations, either the parameters or the return statements were identical.
+  },
+  code = {https://doi.org/10.5281/zenodo.5236305}
+  }
+  
+@inproceedings{gassertmrs,
+  author = {
+  Jon Ayerdi and Valerio Terragni and Aitor Arrieta and 
+  Paolo Tonella and Goiuria Sagardui and Maite Arratibel
+  },
+  title = {{Generating Metamorphic Relations for Cyber-Physical Systems with Genetic Programming: An Industrial Case Study}},
+booktitle = {29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  year = {2021},
+  doi = {10.1145/3468264.3473920},
+  series = {ESEC/ FSE 2021},
+  pdf = {ayerdi-fse-2021.pdf},
+  abstract = {One of the major challenges in the verification of complex industrial Cyber-Physical Systems is the difficulty of determining whether a particular system output or behaviour is correct or not, the so- called test oracle problem. Metamorphic testing alleviates the oracle problem by reasoning on the relations that are expected to hold among multiple executions of the system under test, which are known as Metamorphic Relations (MRs). However, the development of effective MRs is often challenging and requires the involvement of domain experts. In this paper, we present a case study aiming at automating this process. To this end, we implemented GAssertMRs, a tool to automatically generate MRs with genetic programming. We assess the cost-effectiveness of this tool in the context of an industrial case study from the elevation domain. Our experimental results show that in most cases GAssertMRs outperforms the other baselines, including manually generated MRs developed with the help of domain experts. We then describe the lessons learned from our experiments and we outline the future work for the adoption of this technique by industrial practitioners.},
+  ordering = 7,
+  pages = {1264–1274}
+
+  }
+
+
+@inproceedings{ruberto-gecco-2021,
+  author    = {Stefano Ruberto and
+               Valerio Terragni and
+               Jason H. Moore},
+  title     = {Towards Effective GP Multi-Class Classification Based
+on Dynamic Targets},
+ doi = {10.1145/3449639.3459324},
+  year      = {2021},
+booktitle = {Genetic and Evolutionary Computation Conference},
+pages = {812–821},
+  pdf       = {ruberto-gecco-2021.pdf},
+  series = {GECCO 2021},
+  abstract = {In the multi-class classification problem GP plays an important role when combined with other non-GP classifiers. However, when GP performs the actual classification (without relying on other classifiers) its classification accuracy is low. This is especially true when the number of classes is high. In this paper, we present DTC, a GP classifier that leverages the effectiveness of the dynamic target approach to evolve a set of discriminant functions (one for each class). Notably, DTC is the first GP classifier that defines the fitness of individuals by using the synergistic combination of linear scaling and the hinge-loss function (commonly used by SVM). Differently, most previous GP classifiers use the number of correct classifications to drive the evolution. We compare DTC with eight state-of-art multi-class classification techniques (e.g., RF, RS, MLP, and SVM) on eight popular datasets. The results show that DTC achieves competitive classification accuracy even with 15 classes, without relying on other classifiers.},
+  award = {Nominated for the Best Paper Award},  
+  ordering = 6
+
+}
+
+@inproceedings{terragni-gecco-2021,
+  author    = {Valerio Terragni and Gunel Jahangirova and Mauro Pezzè and Paolo Tonella},
+  title     = {Improving Assertion Oracles with Evolutionary Computation},
+booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+  year      = {2021},
+pages = {45–46},
+    doi = {10.1145/3449726.3462722},
+  pdf       = {terragni-gecco-2021.pdf},
+  series = {GECCO 2021},
+  abstract = {Assertion oracles are executable boolean expressions placed inside a software program that verify the correctness of test executions. A perfect assertion oracle passes (returns true) for all correct executions and fails (returns false) for all incorrect executions. Because designing perfect assertion oracles is difficult, assertions often fail to distinguish between correct and incorrect executions. In other words, they are prone to false positives and false negatives. GAssert is the first technique to automatically improve assertion oracles by reducing false positives and false negatives. Given an assertion oracle and a set of correct and incorrect program states, GAssert employs a novel co-evolutionary algorithm that explores the space of possible assertions to identify one with fewer false positives and false negatives. Our evaluation on 34 Java methods shows that GAssert effectively improves assertion oracles.
+},
+ordering = 5
+}
+
+
+
+
+@inproceedings{mariani-issta-2021,
+    author    = {Leonardo Mariani and Ali Mohebbi and Mauro Pezzè and Valerio Terragni},
+      order = {alphabetically},
+  title     = {Semantic Matching of GUI Events for Test Reuse: Are We There Yet?},
+ booktitle = {Proceedings of the 30th ACM SIGSOFT International Symposium on Software Testing and Analysis},
+  year      = {2021},
+  series = {ISSTA 2021},
+  pages = {177–190},
+  doi = {10.1145/3460319.3464827},
+
+  pdf = {mariani-issta-2021.pdf},
+  abstract = {GUI testing is an important but expensive activity. Recently, re- search on test reuse approaches for Android applications produced interesting results. Test reuse approaches automatically migrate human-designed GUI tests from a source app to a target app that shares similar functionalities. They achieve this by exploiting semantic similarity among textual information of GUI widgets. Semantic matching of GUI events plays a crucial role in these approaches. In this paper, we present the first empirical study on semantic matching of GUI events. Our study involves 253 configurations of the semantic matching, 337 unique queries, and 8,099 distinct GUI events. We report several key findings that indicate how to improve semantic matching of test reuse approaches, pro- pose SemFinder a novel semantic matching algorithm that outperforms existing solutions, and identify several interesting research directions.
+},
+ordering = 4
+}
+
+
+
+
+@article{terragni-stvr-2021,
+author = {Terragni, Valerio and Pezzè, Mauro},
+title = {Statically driven generation of concurrent tests for thread-safe classes},
+journal = {Software Testing, Verification and Reliability},
+volume = {31},
+number = {4},
+pages = {e1774},
+doi = {10.1002/stvr.1774},
+series = {STVR 2021},
+pdf = {terragni-stvr-2021.pdf},
+abstract = {Summary Concurrency testing is an important activity to expose concurrency faults in thread-safe classes. A concurrent test for a thread-safe class is a set of method call sequences that exercise the public interface of the class from multiple threads. Automatically generating fault-revealing concurrent tests within an affordable time budget is difficult due to the huge search space of possible concurrent tests. In this paper, we present DepCon+, a novel approach that reduces the search space of concurrent tests by leveraging statically computed dependencies among public methods. DepCon+ exploits the intuition that concurrent tests can expose thread-safety violations that manifest exceptions or deadlocks, only if they exercise some specific method dependencies. DepCon+ provides an efficient way to identify such dependencies by statically analysing the code and relies on the computed dependencies to steer the test generation towards those concurrent tests that exhibit the computed dependencies. We developed a prototype DepCon+ implementation for Java and evaluated the approach on 19 known concurrency faults of thread-safe classes that lead to thread-safety violations of either exception or deadlock type. The results presented in this paper show that DepCon+ is more effective than state-of-the-art approaches in exposing the concurrency faults. The search space pruning of DepCon+ dramatically reduces the search space of possible concurrent tests, without missing any thread-safety violations.},
+year = {2021},
+ordering = 3
+}
+
+
+@inproceedings{mariani-ast-2021,
+  author    = {Leonardo Mariani and Mauro Pezzè and Valerio Terragni and Daniele Zuddas},
+  order = {alphabetically},
+  title     = {An Evolutionary Approach to Adapt Tests Across Mobile Apps},
+ booktitle = {IEEE/ACM International Conference on Automation of Software Test (AST) },
+ pages = {70-79},
+doi = {10.1109/AST52587.2021.00016},
+  year      = {2021},
+  series = {AST 2021},
+  pdf = {mariani-ast-2021.pdf},
+  abstract = {Automatic generators of GUI tests often fail to generate semantically relevant test cases, and thus miss important test scenarios. To address this issue, test adaptation techniques can be used to automatically generate semantically meaningful GUI tests from test cases of applications with similar functionalities. In this paper, we present ADAPTDROID, a technique that approaches the test adaptation problem as a search-problem, and uses evolutionary testing to adapt GUI tests (including oracles) across similar Android apps. In our evaluation with 32 popular Android apps, ADAPTDROID successfully adapted semantically relevant test cases in 11 out of 20 cross-app adaptation scenarios.},
+  ordering = 0
+}
+
+
+@inproceedings{terragni-icse-2021,
+  author    = {Valerio Terragni and Gunel Jahangirova and Paolo Tonella and Mauro Pezzè},
+  title     = {GAssert: A Fully Automated Tool to Improve Assertion Oracles},
+ booktitle = {43nd {IEEE/ACM} International Conference on Software Engineering Companion},
+  year      = {2021},
+  series = {ICSE 2021},
+  pages={85-88},
+  doi={10.1109/ICSE-Companion52605.2021.00042},
+  pdf = {terragni-icse-2021.pdf},
+
+abstract = {This demo presents the implementation and usage details of GASSERT, the first tool to automatically improve assertion oracles. Assertion oracles are executable boolean expressions placed inside the program that should pass (return true) for all correct executions and fail (return false) for all incorrect executions. Because designing perfect assertion oracles is difficult, assertions are prone to both false positives (the assertion fails but should pass) and false negatives (the assertion passes but should fail). Given a Java method containing an assertion oracle to improve, GASSERT returns an improved assertion with fewer false positives and false negatives than the initial assertion. Internally, GASSERT implements a novel co-evolutionary algorithm that explores the space of possible assertions guided by two fitness functions that reward assertions with fewer false positives, fewer false negatives, and smaller size.
+},
+ordering = 1
+}
+
+@inproceedings{terragni-fse-2020,
+  author    = {Valerio Terragni and Gunel Jahangirova and Paolo Tonella and Mauro Pezzè},
+  title     = {Evolutionary Improvement of Assertion Oracles},
+ booktitle = {28th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  year      = {2020},
+  pages = {1178–1189},
+  series = {ESEC/ FSE 2020},
+  doi = {10.1145/3368089.3409758},
+ pdf       = {terragni-esecfse-2020.pdf},
+ abstract = {Assertion oracles are executable boolean expressions placed inside the program that should pass (return true) for all correct executions and fail (return false) for all incorrect executions. Because designing perfect assertion oracles is difficult, assertions often fail to distinguish between correct and incorrect executions. In other words, they are prone to false positives and false negatives. In this paper, we propose GAssert (Genetic ASSERTion improvement), the first technique to automatically improve assertion oracles. Given an assertion oracle and evidence of false positives and false negatives, GAssert implements a novel co-evolutionary algorithm that explores the space of possible assertions to identify one with fewer false positives and false negatives. Our empirical evaluation on 34 Java methods from 7 different Java code bases shows that GAssert effectively improves assertion oracles. GAssert outperforms two baselines (random and invariant- based oracle improvement), and is comparable with and in some cases even outperformed human-improved assertions.}
+
+}
+
+
+@inproceedings{terragni-icse-2020,
+  author    = {Valerio Terragni and 
+                Pasquale Salza and
+                Filomena Ferrucci},
+  title     = {{A Container-Based Infrastructure for Fuzzy-Driven Root
+             Causing of Flaky Tests}},
+  booktitle = {  42nd IEEE/ACM International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)},
+  pages     = {69-72},
+  year      = {2020},
+  pdf       = {terragni-icse-2020.pdf},
+  series = {ICSE 2020},
+  doi       = {10.1145/3377816.3381742},
+  abstract = {Intermittent test failures (test flakiness) is common during continuous integration as modern software systems have become inherently non-deterministic. Understanding the root cause of test flakiness is crucial as intermittent test failures might be the result of real non-deterministic defects in the production code, rather than mere errors in the test code. Given a flaky test, existing techniques for root causing test flakiness compare the runtime behavior of its passing and failing executions. They achieve this by repetitively executing the flaky test on an instrumented version of the system under test. This approach has two fundamental limitations: (i) code instrumentation might prevent the manifestation of test flakiness; (ii) when test flakiness is rare passively re-executing a test many times might be inadequate to trigger intermittent test outcomes. To address these limitations, we propose a new idea for root causing test flakiness that actively explores the non-deterministic space without instrumenting code. Our novel idea is to repetitively execute a flaky test, under different execution clusters. Each cluster explores a certain non-deterministic dimension (e.g., concurrency, I/O, and networking) with dedicated software containers and fuzzy- driven resource load generators. The execution cluster that manifests the most balanced (or unbalanced) sets of passing and failing executions is likely to explain the broad type of test flakiness.}
+}
+
+@inproceedings{terragni-icpc-2020,
+  author    = {Valerio Terragni and 
+                Pasquale Salza and
+                Mauro Pezzè},
+title     = {{Measauring Software Testability Modulo Test Quality}},
+  booktitle = {28th International Conference on Program Comprehension},
+  year      = {2020},
+  series = {ICPC 2020},
+  pages     = {241-251},
+  doi       = {10.1145/3387904.3389273},
+  pdf       = {terragni-icpc-2020.pdf},
+  code = {https://github.com/pasqualesalza/testability},
+  abstract = {Comprehending the degree to which software components support testing is important to accurately schedule testing activities, train developers, and plan effective refactoring actions. Software testability estimates such property by relating code characteristics to the test effort. The main studies of testability reported in the literature investigate the relation between class metrics and test effort in terms of the size and complexity of the associated test suites. They report a moderate correlation of some class metrics to test-effort metrics, but suffer from two main limitations: (i) the results hardly generalize due to the small empirical evidence (datasets with no more than eight software projects); and (ii) mostly ignore the quality of the tests. However, considering the quality of the tests is important. Indeed, a class may have a low test effort because the associated tests are of poor quality, and not because the class is easier to test. In this paper, we propose an approach to measure testability that normalizes the test effort with respect to the test quality, which we quantify in terms of code coverage and mutation score. We present the results of a set of experiments on a dataset of 9,861 Java classes, belonging to 1,186 open source projects, with around 1.5 millions of lines of code overall. The results confirm that normalizing the test effort with respect to the test quality largely improves the correlation between class metrics and the test effort. Better correlations result in better prediction power, and thus better prediction of the test effort.}
+}
+
+
+@inproceedings{ruberto-ppsn-2020,
+  author    = {Stefano Ruberto and
+               Valerio Terragni and
+               Jason H. Moore},
+  title     = {Image Feature Learning with Genetic Programming},
+ booktitle = {16th International Conference on Parallel Problem Solving from Nature},
+  year      = {2020},
+    pdf       = {ruberto-ppsn-2020.pdf},
+  series = {PPSN 2020},
+    pages     = {63--78},
+      doi       = {10.1007/978-3-030-58115-2\_5},
+  abstract = {Learning features from raw data is an important topic in machine learning. This paper presents Genetic Program Feature Learner (GPFL), a novel generative GP feature learner for 2D images. GPFL executes multiple GP runs, each run generates a model that focuses on a particular high-level feature of the training images. Then, it combines the models generated by each run into a function that reconstructs the observed images. As a sanity check, we evaluated GPFL on the popular MNIST dataset of handwritten digits, and compared it with the convolutional neural network LeNet5. Our evaluation results show that when considering smaller training sets, GPFL achieves comparable/slightly- better classification accuracy than LeNet5. However, GPFL drastically outperforms LeNet5 when considering noisy images as test sets.}
+}
+
+
+@inproceedings{ruberto-gecco-2020b,
+  author    = {Stefano Ruberto and
+               Valerio Terragni and
+               Jason H. Moore},
+  title     = {SGP-DT: Towards Effective Symbolic Regression with a Semantic GP Approach Based on Dynamic Targets},
+ booktitle = {Genetic and Evolutionary Computation Conference Companion},
+  year      = {2020},
+    pages     = {25-26},
+  pdf       = {ruberto-gecco-hop-2020.pdf},
+  series = {GECCO 2020},
+    doi       = {10.1145/3377929.3397486},
+  abstract = {Semantic Genetic Programming (SGP) approaches demonstrated remarkable results in different domains. SGP-DT is one of the latest of such approaches. Notably, SGP-DT proposes a dynamic-target approach that combines multiple GP runs without relying on any form of crossover. On eight well-known datasets SGP-DT achieves small RMSE, on average 25% smaller than state-of-the-art approaches.}
+}
+
+@inproceedings{ruberto-gecco-2020,
+  author    = {Stefano Ruberto and
+               Valerio Terragni and
+               Jason H. Moore},
+  title     = {Image Feature Learning with a Genetic Programming Autoencoder},
+ booktitle = {Genetic and Evolutionary Computation Conference Companion},
+  year      = {2020},
+    pdf       = {ruberto-gecco-2020.pdf},
+  series = {GECCO 2020},
+   doi       = {10.1145/3377929.3389981},
+     pages     = {245-246},
+ abstract = {Learning features from raw data is an important topic in machine learning. This paper presents a novel GP approach to learn high- level features from 2D images. It is a generative approach that resembles the concept of an autoencoder. Our approach executes multiple GP runs, each run generates a (partial) model that focuses on a particular high-level feature of the training images. Then, it combines the models generated by each run into a parametric function that reconstructs the observed images. We evaluated our approach on the popular MNIST dataset of 2D images representing handwritten digits. Our evaluation results show that our parametric approach can precisely reconstruct the MNIST hand-written digits.}
+}
+
+
+@inproceedings{ruberto-eurogp-2020,
+  author    = {Stefano Ruberto and
+               Valerio Terragni and
+               Jason H. Moore},
+  title     = {{SGP-DT:} Semantic Genetic Programming Based on Dynamic Targets},
+  booktitle = {23rd European Conference on Genetic Programming},
+  pages     = {167-183},
+  year      = {2020},
+  series = {EuroGP 2020},
+  pdf       = {ruberto-eurogp-2020.pdf},
+  slides    = {ruberto-eurogp-2020-slides.pdf},
+    doi       = {10.1007/978-3-030-44094-7\_11},
+  abstract = {Semantic GP is a promising approach that introduces semantic awareness during genetic evolution. This paper presents a new Semantic GP approach based on Dynamic Target (SGP-DT) that divides the search problem into multiple GP runs. The evolution in each run is guided by a new (dynamic) target based on the residual errors. To obtain the final solution, SGP-DT combines the solutions of each run using linear scaling. SGP-DT presents a new methodology to produce the offspring that does not rely on the classic crossover. The synergy between such a methodology and linear scaling yields to final solutions with low approximation error and computational cost. We evaluate SGP-DT on eight well-known data sets and compare with epsilon-lexicase, a state-of-the-art evolutionary technique. SGP-DT achieves small RMSE values, on average 23.19% smaller than the one of epsilon-lexicase.},
+  award = {Nominated for the Best Paper Award}
+
+}
+
+
+
+
+
+@inproceedings{terragni-icst-2019,
+  author    = {Valerio Terragni and
+               Mauro Pezz{\`{e}} and
+               Francesco Adalberto Bianchi},
+  title     = {Coverage-Driven Test Generation for Thread-Safe Classes via Parallel
+               and Conflict Dependencies},
+  booktitle = {12th {IEEE} Conference on Software Testing, Validation and Verification},
+  pages     = {264-275},
+  year      = {2019},
+    doi       = {10.1109/ICST.2019.00034},
+  series    = {ICST 2019},
+  pdf       = {terragni-icst-2019.pdf},
+  slides    = {terragni-icst-2019-slides.pdf},
+  abstract  = {Thread-safe classes are common in concurrent object-oriented programs. Testing such classes is important to ensure the reliability of the concurrent programs that rely on them. Recently, researchers have proposed the automated generation of concurrent (multi-threaded) tests to expose concurrency faults in thread-safe classes (thread-safety violations). However, generating fault-revealing concurrent tests within an affordable time-budget is difficult due to the huge search space of possible concurrent tests. In this paper, we present DEPCON, an approach to effectively reduce the search space of concurrent tests by means of both parallel and conflict dependency analyses. DEPCON is based on the intuition that only methods that can both interleave (parallel dependent) and access the same shared memory locations (conflict dependent) can lead to thread-safety violations when concurrently executed. DEPCON implements an efficient static analysis to compute the parallel and conflict dependencies among the methods of a class and uses the computed dependencies to steer the generation of tests towards concurrent tests that exhibit the computed dependencies. We evaluated DEPCON by experimenting with a prototype implementation for Java programs on a set of thread-safe classes with known concurrency faults. The experimental results show that DEPCON is more effective in exposing concurrency faults than state-of-theart techniques.},
+  award = {IEEE TCSE Distinguished Paper Award}
+}
+
+@inproceedings{terragni-ase-2018,
+  author    = {Valerio Terragni and
+               Mauro Pezz{\`{e}}},
+  title     = {Effectiveness and Challenges in Generating Concurrent Tests for Thread-Safe Classes},
+  booktitle = {33rd {ACM/IEEE} International Conference on Automated
+               Software Engineering},
+  pages     = {64-75},
+    doi       = {10.1145/3238147.3238224},
+  year      = {2018},
+  series    = {ASE 2018},
+  pdf       = {terragni-ase-2018.pdf},
+  slides    = {terragni-ase-2018-slides.pdf},
+  abstract  = {Developing correct and efficient concurrent programs is difficult and error-prone, due to the complexity of thread synchronization. Often, developers alleviate such problem by relying on thread-safe classes, which encapsulate most synchronization-related challenges. Thus, testing such classes is crucial to ensure the reliability of the concurrency aspects of programs. Some recent techniques and corresponding tools tackle the problem of testing thread-safe classes by automatically generating concurrent tests. In this paper, we present a comprehensive study of the state-of-the-art techniques and an independent empirical evaluation of the publicly available tools. We conducted the study by executing all tools on the JaConTeBe benchmark that contains 47 well-documented concurrency faults. Our results show that 8 out of 47 faults (17%) were detected by at least one tool. By studying the issues of the tools and the generated tests, we derive insights to guide future research on improving the effectiveness of automated concurrent test generation.}
+}
+
+@inproceedings{bianchi-fse-2017,
+  author    = {Francesco A. Bianchi and
+               Mauro Pezz{\`{e}} and
+               Valerio Terragni},
+               order = {alphabetically},
+  title     = {Reproducing Concurrency Failures from Crash Stacks},
+  booktitle = {11th Joint Meeting on Foundations of Software
+               Engineering},
+  pages     = {705-716},
+  year      = {2017},
+  series    = {ESEC/ FSE 2017},
+  pdf       = {bianchi-fse-2017.pdf},
+  slides    = {bianchi-fse-2017-slides.pdf},
+  code      = {http://star.inf.usi.ch/#/software-data/2},
+    doi       = {10.1145/3106237.3106292},
+  abstract = {Reproducing  field failures is the first essential step for understanding, localizing and removing faults. Reproducing concurrency field failures is hard due to the need of synthesizing a test code jointly with a thread interleaving that induce the failure in the presence of limited information from the field. Current techniques for reproducing concurrency failures focus on identifying failure-inducing interleavings, leaving largely open the problem of synthesizing the test code that manifests such interleavings. In this paper, we present ConCrash, a technique to automatically generate test codes that reproduce concurrency failures that violate thread-safety from crash stacks, which commonly summarize the conditions of field failures. ConCrash efficiently explores the huge space of possible test codes to identify a failure-inducing one by using a suitable set of search pruning strategies. Combined with existing techniques for exploring interleavings, ConCrash automatically reproduces a given concurrency failure that violates the thread-safety of a class by identifying both a failure-inducing test code and corresponding interleaving. In the paper, we define the ConCrash approach, present a prototype implementation of ConCrash, and discuss the experimental results that we obtained on a known set of ten field failures that witness the effectiveness of the approach.}
+}
+
+
+
+
+
+@inproceedings{terragni-icse-2016,
+  author    = {Valerio Terragni and
+               Shing{-}Chi Cheung},
+  title     = {Coverage-driven Test Code Generation for Concurrent Classes},
+  booktitle = {38th {ACM/IEEE} International Conference on Software Engineering},
+  pages     = {1121-1132},
+  year      = {2016},
+  series    = {ICSE 2016},
+  pdf       = {terragni-icse-2016.pdf},
+    doi       = {10.1145/2884781.2884876},
+
+  slides    = {terragni-icse-2016-slides.pdf},
+  abstract  = {Previous techniques on concurrency testing have mainly focused on exploring the interleaving space of manually written test code to expose faulty interleavings of shared memory accesses. These techniques assume the availability of failure-inducing tests. In this paper, we present AutoConTest, a coverage-driven approach to generate effective concurrent test code that achieve high interleaving coverage. AutoConTest consists of three components. First, it computes the coverage requirements dynamically and iteratively during sequential test code generation, using a coverage metric that captures the execution context of shared memory accesses. Second, it smartly selects these sequential codes based on the computed result and assembles them for concurrent tests, achieving increased context-sensitive interleaving coverage. Third, it explores the newly covered interleavings. We have implemented AutoConTest as an automated tool and evaluated it using 6 real-world concurrent Java subjects. The results show that AutoConTest is able to generate effective concurrent tests that achieve high interleaving coverage and expose concurrency faults quickly. AutoConTest took less than 65 seconds (including program analysis, test generation and execution) to expose the faults in the program subjects.}
+}
+
+@inproceedings{terragni-issta-2016,
+  author    = {Valerio Terragni and
+               Yepang Liu and
+               Shing{-}Chi Cheung},
+  title     = {{CSNIPPEX:} Automated Synthesis of Compilable Code Snippets from Q{\&}A
+               Sites},
+  booktitle = {25th International Symposium on Software Testing
+               and Analysis},
+  pages     = {118-129},
+  year      = {2016},
+  series    = {ISSTA 2016},
+    doi       = {10.1145/2931037.2931058},
+  pdf      = {terragni-issta-2016.pdf},
+  slides     = {terragni-issta-2016-slides.pdf},
+  code     = {http://sccpu2.cse.ust.hk/csnippex/index.html},
+  abstract = {Popular Q&amp;A sites like StackOverflow have collected numerous code snippets. However, many of them do not have complete type information, making them uncompilable and inapplicable to various software engineering tasks. This paper analyzes this problem, and proposes a technique CSNIPPEX to automatically convert code snippets into compilable Java source code files by resolving external dependencies, generating import declarations, and fixing syntactic errors. We implemented CSNIPPEX as a plug-in for Eclipse and evaluated it with 242,175 StackOverflow posts that contain code snippets. CSNIPPEX successfully synthesized compilable Java files for 40,410 of them. It was also able to effectively recover import declarations for each post with a precision of 91.04% in a couple of seconds.}
+}
+
+@inproceedings{liu-fse-2016,
+  author    = {Yepang Liu and
+               Chang Xu and
+               Shing{-}Chi Cheung and
+               Valerio Terragni},
+  title     = {Understanding and Detecting Wake Lock Misuses for Android Applications},
+  booktitle = {24th {ACM} {SIGSOFT} International Symposium on
+               Foundations of Software Engineering},
+  pages     = {396-409},
+  year      = {2016},
+  series    = {FSE 2016},
+    doi       = {10.1145/2950290.2950297},
+  pdf       = {liu-fse-2016.pdf},
+  slides    = {liu-fse-2016-slides.pdf},
+  code      = {http://sccpu2.cse.ust.hk/elite/toc.html},
+  abstract  = {Wake locks are widely used in Android apps to protect critical computations from being disrupted by device sleeping. Inappropriate use of wake locks often seriously impacts user experience. However, little is known on how wake locks are used in real-world Android apps and the impact of their misuses. To bridge the gap, we conducted a large-scale empirical study on 44,736 commercial and 31 open-source Android apps. By automated program analysis and manual investigation, we observed (1) common program points where wake locks are acquired and released, (2) 13 types of critical computational tasks that are often protected by wake locks, and (3) eight patterns of wake lock misuses that commonly cause functional and non-functional issues, only three of which had been studied by existing work. Based on our findings, we designed a static analysis technique, Elite, to detect two most common patterns of wake lock misuses. Our experiments on real-world subjects showed that Elite is effective and can outperform two state-of-the-art techniques.}
+}
+
+@inproceedings{malavolta-mobilesoft-2015,
+  author    = {Ivano Malavolta and
+               Stefano Ruberto and
+               Tommaso Soru and
+               Valerio Terragni},
+  title     = {Hybrid Mobile Apps in the Google Play Store: An Exploratory Investigation},
+  booktitle = {2nd {ACM} International Conference on Mobile Software Engineering and Systems},
+  pages     = {56-59},
+  year      = {2015},
+  series    = {MOBILE Soft 2015},
+    doi       = {10.1109/MobileSoft.2015.15},
+
+  pdf = {malavolta-mobilesoft-2015.pdf},
+  abstract  = {One of the most intriguing challenges in mobile apps development is its fragmentation with respect to mobile platforms (e.g., Android, Apple iOS, Windows Phone). Large companies like IBM and Adobe and a growing community of developers advocate hybrid mobile apps development as a possible solution to mobile platforms fragmentation. Hybrid mobile apps are consistent across platforms and built on web standards. How hybrid apps are performing in production settings is still highly debated, with limited objective evidence.In this paper, we present the first realistic investigation into mobile hybrid apps through a solid empirical strategy. Our goal is exploratory and we aim at identifying, analysing, and understanding the traits and distinctions of publicly available hybrid mobile apps within their real-life context. The study has been conducted by mining 11,917 free apps and 3,041,315 reviews from the Google Play Store, and analyzing them from both a technical and end users' perception perspective. The results of this study build an objective and reproducible snapshot about how hybrid mobile development is performing "in the wild" in real projects.}
+}
+
+@inproceedings{terragni-icse-2015,
+  author    = {Valerio Terragni and
+               Shing{-}Chi Cheung and
+               Charles Zhang},
+  title     = {{RECONTEST:} Effective Regression Testing of Concurrent Programs},
+  booktitle = {37th {IEEE/ACM} International Conference on Software Engineering},
+  pages     = {246--256},
+  year      = {2015},
+  series    = {ICSE 2015},
+  pdf = {terragni-icse-2015.pdf},
+  slides = {terragni-icse-2015-slides.pdf},
+    doi       = {10.1109/ICSE.2015.45},
+  abstract = {Concurrent programs proliferate as multi-core technologies advance. As a result, the conventional approach that selects a sub-set of test cases for regression testing without considering interleavings is insufficient. In this paper we present RECONTEST to address the problem by selecting the new interleavings that arise due to code changes. These interleavings must be explored in order to uncover regression bugs. RECONTEST efficiently selects new interleavings by first identifying shared memory accesses that are affected by the changes, and then exploring only those problematic interleavings that contain at least one of these accesses.
+We have implemented RECONTEST as an automated  tool and evaluated it using 13 real-world concurrent program subjects. Our results show that RECONTEST can significantly reduce the regression testing cost without missing any faulty interleavings induced by code changes.}
+
+}
+
+@inproceedings{malavolta-ms-2015,
+  author    = {Ivano Malavolta and
+               Stefano Ruberto and
+               Tommaso Soru and
+               Valerio Terragni},
+  title     = {End Users' Perception of Hybrid Mobile Apps in the Google Play Store},
+  booktitle = {{IEEE} International Conference on Mobile Services},
+  pages     = {25-32},
+  year      = {2015},
+  series = {MS 2015},
+  pdf = {malavolta-ms-2015.pdf},
+  abstract = {Today millions of mobile apps are downloaded and used all over the world. Mobile apps are distributed via different app stores, such as the Google Play Store, the Apple App Store, the Windows Phone Store. One of the most intriguing challenges in mobile apps development is its fragmentation with respect to mobile platforms (e.g., Android, Apple iOS, Windows Phone). Recently, companies like IBM and Adobe and a growing community of developers advocate hybrid mobile apps development as a possible solution to mobile platforms fragmentation. Hybrid mobile apps are consistent across platforms and built on Web standards. In this paper, we present an empirical investigation into mobile hybrid apps. Our goal is to identify and analyse the traits and distinctions of publicly available hybrid mobile apps from end users' perspective. The study has been conducted by mining 11,917 free apps and 3,041,315 reviews from the Google Play Store, and analyzing them from the end users' perception perspective. The results of this study build an objective and reproducible snapshot about how hybrid mobile development is performing "in the wild" in real projects, thus establishing a base for future methods and techniques for developing hybrid mobile apps.},
+    doi       = {10.1109/MobServ.2015.14}
+
+}
+
+
