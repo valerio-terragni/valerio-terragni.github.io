@@ -82,7 +82,9 @@
     {% if entry.pages %}
     <em>, pages {{entry.pages}}</em>
     {% endif %}
-
+    {% if entry.year %}
+    <em>, {{entry.year}}</em>
+    {% endif %}
     </span>
     {% if entry.award %}
         <span class="periodical">
