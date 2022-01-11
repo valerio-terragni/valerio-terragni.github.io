@@ -1,11 +1,25 @@
 
+@inproceedings{baker-saner-2022,
+	author    = {Wilson Baker and Michael O’Connor and Seyed Reza Shahamiri and Valerio Terragni},
+	title     = {Detect, Fix, and Verify TensorFlow API Misuses},
+	booktitle = {29th IEEE International Conference on Software Analysis, Evolution and Reengineering {SANER} 2022},
+	year      = {2022},
+  series = {SANER 2022},
+  pdf= {baker-saner-2022.pdf},
+  ordering = 2,
+    abstract = {The growing application of DL makes detecting and fixing defective DL programs of paramount importance. Recent studies on DL defects report that TensorFlow API misuses represent a common class of DL defects. However to effectively detect, fix, and verify them remains an understudied problem. This paper presents the TensorFlow API misuses Detector And Fixer (TADAF) technique, which relies on 11 common API misuses patterns and corresponding fixes that we extracted from StackOverflow. TADAF statically analyses a TensorFlow program for identifying matches of any of the 11 patterns. If it finds a match, it automatically generates a fixed version of the program. To verify that the misuse brings a tangible negative effect, TADAF reports functional, accuracy, or efficiency differences when training and testing (with the same data) the original and fixed versions of the program. Our preliminary evaluation on five GitHub projects shows that TADAF detected and fixed all the API misuses. }
+}
+
+
 @inproceedings{tu-ace-2022,
   author = {Tu, Yu-Cheng and Terragni, Valerio and Tempero, Ewan and Shakil, Asma and Meads, Andrew and Giacaman, Nasser and Fowler, Allan and Blincoe, Kelly},
   title = {GitHub in the Classroom: Lessons Learnt},
   booktitle = {Proceedings of the Australasian Computing Education Conference},
   year = {2022},
     ordering = 1,
-  series = {ACE 2022}
+  series = {ACE 2022},
+    pdf= {tu-ace-2022.pdf},
+      abstract = {The decision as to whether or not, and how, to use a Version Control System (VCS) in teaching is complex to make. There are a number of use cases for how a VCS can be used in teaching, there are several VCSs, each VCS has a variety of options for how to access them, each has a number of third-party support systems, and all combinations have different benefits, costs, and challenges. At University of Auckland, we have made significant use of Git and related systems (especially GitHub and GitHub Classroom). In this paper, we offer the lessons we have learned from our collective experience. While we by no means cover all of the possibilities, we hope that instructors considering the use of VCSs, in particular Git, will find the lessons we have learned helpful in making their decisions regarding how to use VCS in teaching. }
 }
 
 @article{ruberto-gpem-2021,
