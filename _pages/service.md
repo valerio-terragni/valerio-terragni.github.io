@@ -7,49 +7,53 @@ description: Professional Service.
 
 **Conference Program Committees**
 <br>
-- International Symposium on Software Reliability Engineering (ISSRE): 2021
+- ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (**ESEC/FSE**): 2022 (IVR track)
 <br>
-- ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW): 2021
+- International Symposium on Software Reliability Engineering (**ISSRE**): 2022, 2021
 <br>
-- International Conference of Program Comprehension (ICPC): 2022, 2021 (ERA-track)
+- ACM Conference on Computer-Supported Cooperative Work and Social Computing (**CSCW**): 2021
 <br>
-- International Conference on Software Maintenance and Evolution (ICSME): 2022 (Tool-demo track)
+- International Conference of Program Comprehension (**ICPC**): 2022, 2021 (ERA-track)
 <br>
-- International Conference on Mobile Software Engineering and Systems (MOBILESoft): 2021, 2020
+- International Conference on Software Maintenance and Evolution (**ICSME**): 2022 (Tool-demo track), 2022 (doctoral symposium)
+<br>
+- Symposium on Search-Based Software Engineering (**SSBSE**): 2022
+<br>
+- International Conference on Mobile Software Engineering and Systems (**MOBILESoft**): 2021, 2020
 <br> 
-- International Conference on Software Quality, Reliability, and Security (QRS): 2021
+- International Conference on Software Quality, Reliability, and Security (**QRS**): 2021
 <br>
-- International Workshop on ML Techniques for Software Quality Evolution (MaLTeSQuE): 2021, 2020 
+- International Workshop on ML Techniques for Software Quality Evolution (**MaLTeSQuE**): 2022, 2021, 2020 
 <br>
-- Workshop on Testing, Analysis, and Verification of Cyber-Physical Systems and Internet of Things (TAV-CPS/IoT): 2020, 2019, 2018
+- Workshop on Testing, Analysis, and Verification of Cyber-Physical Systems and Internet of Things (**TAV-CPS/IoT**): 2020, 2019, 2018
 <br> 
 <br>
 
 **Organizer and Program Chair**
 <br>
-- International Workshop on Test Oracles (TORACLE): 2021 (organizer and chair)
+- International Workshop on Test Oracles (**TORACLE**): 2021 (organizer and chair)
 <br> 
-- International Conference on Mobile Software Engineering and Systems (MOBILESoft): 2022 (virtualization chair), 2021 (program co-chair - Tool Demos and Visions track)
+- International Conference on Mobile Software Engineering and Systems (**MOBILESoft**): 2022 (virtualization chair), 2021 (program co-chair - Tool Demos and Visions track)
 <br> 
 <br>
 
 **Reviewer**
 <br>
-- IEEE Transactions on Software Engineering (TSE)
+- IEEE Transactions on Software Engineering (**TSE**)
 <br>
-- Transactions on Software Engineering and Methodology (TOSEM)
+- Transactions on Software Engineering and Methodology (**TOSEM**)
 <br>
-- Journal of Systems & Software (JSS)
+- Journal of Systems & Software (**JSS**)
 <br>
-- Software Testing, Verification and Reliability (STVR)
+- Software Testing, Verification and Reliability (**STVR**)
 <br>
-- Journal of Software: Evolution and Process (JSEP)
+- Journal of Software: Evolution and Process (**JSEP**)
 <br>
-- Journal of Computer Science and Technology (JCST)
+- Journal of Computer Science and Technology (**JCST**)
 <br>
 - IEEE Access Journal
 <br>
-- Software Quality Journal (SQJO)
+- Software Quality Journal (**SQJO**)
 
 
 
