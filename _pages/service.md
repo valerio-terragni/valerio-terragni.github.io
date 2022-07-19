@@ -7,25 +7,27 @@ description: Professional Service.
 
 **Conference Program Committees**
 <br>
-- ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (**ESEC/FSE**): 2022 (IVR track)
+- ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (**ESEC/FSE**): 2023 (research track), 2022 (IVR track)
 <br>
-- International Symposium on Software Reliability Engineering (**ISSRE**): 2022, 2021
+- IEEE International Conference on Software Testing, Verification and Validation (**ICST**): 2023 (research track)
 <br>
-- ACM Conference on Computer-Supported Cooperative Work and Social Computing (**CSCW**): 2021
+- International Symposium on Software Reliability Engineering (**ISSRE**): 2022 (research track), 2021 (research track)
+<br>
+- ACM Conference on Computer-Supported Cooperative Work and Social Computing (**CSCW**): 2021 (research track)
 <br>
 - International Conference of Program Comprehension (**ICPC**): 2022, 2021 (ERA-track)
 <br>
-- International Conference on Software Maintenance and Evolution (**ICSME**): 2022 (Tool-demo track), 2022 (doctoral symposium)
+- International Conference on Software Maintenance and Evolution (**ICSME**): 2022 (Tool-demo track), 2022 (Doctoral symposium track)
 <br>
-- Symposium on Search-Based Software Engineering (**SSBSE**): 2022
+- Symposium on Search-Based Software Engineering (**SSBSE**): 2022 (research track)
 <br>
-- International Conference on Mobile Software Engineering and Systems (**MOBILESoft**): 2021, 2020
+- International Conference on Mobile Software Engineering and Systems (**MOBILESoft**): 2021 (research track), 2020 (research track)
 <br> 
-- International Conference on Software Quality, Reliability, and Security (**QRS**): 2021
+- International Conference on Software Quality, Reliability, and Security (**QRS**): 2021 (research track)
 <br>
-- International Workshop on ML Techniques for Software Quality Evolution (**MaLTeSQuE**): 2022, 2021, 2020 
+- International Workshop on ML Techniques for Software Quality Evolution (**MaLTeSQuE**): 2022 (research track), 2021 (research track), 2020 (research track)
 <br>
-- Workshop on Testing, Analysis, and Verification of Cyber-Physical Systems and Internet of Things (**TAV-CPS/IoT**): 2020, 2019, 2018
+- Workshop on Testing, Analysis, and Verification of Cyber-Physical Systems and Internet of Things (**TAV-CPS/IoT**): 2020 (research track), 2019 (research track), 2018 (research track)
 <br> 
 <br>
 
