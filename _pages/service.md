@@ -15,7 +15,7 @@ description: Professional Service.
 <br>
 - ACM Conference on Computer-Supported Cooperative Work and Social Computing (**CSCW**): 2021 (research track)
 <br>
-- International Conference of Program Comprehension (**ICPC**): 2022, 2021 (ERA-track)
+- International Conference of Program Comprehension (**ICPC**): 2022 (research track), 2021 (ERA-track)
 <br>
 - International Conference on Software Maintenance and Evolution (**ICSME**): 2022 (Tool-demo track), 2022 (Doctoral symposium track)
 <br>
