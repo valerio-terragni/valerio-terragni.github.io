@@ -7,7 +7,12 @@ description: Professional Service.
 
 **Conference Program Committees**
 <br>
+- IEEE/ACM International Conference on Software Engineering  (**ICSE**): 2023 (SEET track)
+<br>
 - ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (**ESEC/FSE**): 2023 (research track), 2022 (IVR track)
+<br>
+- ACM International Symposium on Software Testing and
+Analysis (**ISSTA**): 2023 (research track)
 <br>
 - IEEE International Conference on Software Testing, Verification and Validation (**ICST**): 2023 (research track)
 <br>
