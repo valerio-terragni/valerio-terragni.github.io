@@ -17,8 +17,6 @@ social: true
 I am a Lecturer in the [Department of Electrical, Computer, and Software Engineering](https://www.auckland.ac.nz/en/engineering/about-the-faculty/electrical-computer-and-software-engineering.html) at [The University of Auckland](https://www.auckland.ac.nz/en.html), New Zealand. The Lecturer title is equivalent to Assistant Professor in Asian, European, and North American universities.
 
 
-From 2017 to 2020, I was a Senior Research Fellow (post-doc) at the Faculty of Informatics at the [USI Università della Svizzera italiana](https://www.usi.ch/en), Lugano, Switzerland, where I joined the [STAR group](http://star.inf.usi.ch/#/home) led by [Prof. Mauro Pezzè](https://www.inf.usi.ch/faculty/pezze/). In 2017, I obtained my PhD at [The Hong Kong University of Science and Technology](https://www.ust.hk/home), Hong Kong, advised by [Prof. S.C. Cheung](https://www.cse.ust.hk/~scc/). I received my B.Sc. and M.Sc. degrees in Computer Science from [The University of Milano-BICOCCA](https://en.unimib.it/), Italy.
-
 I am a Software Engineering researcher, my main research topics are:
 
 + Testing and analysis of concurrent programs [STVR 2021, ICST 2019, ASE 2018, ESEC/FSE 2017, ICSE 2016, ICSE 2015]
