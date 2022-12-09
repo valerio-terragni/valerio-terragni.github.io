@@ -26,7 +26,7 @@ Analysis (**ISSTA**): 2023 (research track)
 <br>
 - Symposium on Search-Based Software Engineering (**SSBSE**): 2022 (research track)
 <br>
-- International Conference on Mobile Software Engineering and Systems (**MOBILESoft**): 2021 (research track), 2020 (research track)
+- International Conference on Mobile Software Engineering and Systems (**MOBILESoft**): 2023 (NIER track), 2021 (research track), 2020 (research track)
 <br> 
 - International Conference on Software Quality, Reliability, and Security (**QRS**): 2021 (research track)
 <br>
