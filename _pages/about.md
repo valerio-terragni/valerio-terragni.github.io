@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: Dr. Valerio <strong>Terragni</strong>
-description: Lecturer at The University of Auckland,  New Zealand. ✉️v.terragni AT auckland DOT ac DOT nz </a>
+description: Senior Lecturer at The University of Auckland,  New Zealand. ✉️v.terragni AT auckland DOT ac DOT nz </a>
 
 profile:
   align: right
@@ -14,7 +14,9 @@ news: true
 social: true
 ---
 
-I am a Lecturer in the [Department of Electrical, Computer, and Software Engineering](https://www.auckland.ac.nz/en/engineering/about-the-faculty/electrical-computer-and-software-engineering.html) at [The University of Auckland](https://www.auckland.ac.nz/en.html), New Zealand. The Lecturer title is equivalent to Assistant Professor in Asian, European, and North American universities.
+I am a Senior Lecturer in the [Department of Electrical, Computer, and Software Engineering](https://www.auckland.ac.nz/en/engineering/about-the-faculty/electrical-computer-and-software-engineering.html) at [The University of Auckland](https://www.auckland.ac.nz/en.html), New Zealand. The Senior Lecturer title is equivalent to Associate Professor in Asian, European, and North American universities.
+
+I am also the program director of the Software Engineering Degree at the University of Auckland.
 
 
 I am a Software Engineering researcher, my main research topics are:
