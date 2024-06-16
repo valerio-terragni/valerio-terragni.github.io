@@ -21,10 +21,12 @@ I am also the program director of the Software Engineering Degree at the Univers
 
 I am a Software Engineering researcher, my main research topics are:
 
-+ Testing and analysis of concurrent programs [STVR 2021, ICST 2019, ASE 2018, ESEC/FSE 2017, ICSE 2016, ICSE 2015]
-+ Test Oracle Generation/Improvement [ESEC/FSE 2021, GECCO 2021, ICSE 2021, ESEC/FSE 2020]
-+ Android app testing and analysis[ISSTA 2021, AST 2021, FSE 2016, IEE MS 2015, MOBILESoft 2015]
-+ Non-determinism in testing (test flakiness) [ICSE 2020]
-+ Analysis of crowd-generated code[ASE 2021, ISSTA 2016]
-+ Genetic Programming and its applications to SE [ESEC/FSE 2021, GECCO 2021, ICSE 2021, ESEC/FSE 2020, PPSN 2020, EuroGP 2020, GECCO 2020]
-+ Software Testability [ICPC 2020]
++ Software Testing
++ Metamorphic Testing
++ Test Case Generation
++ Test Oracle Generation/Improvement 
++ Machine Learning Testing
++ Android app testing and analysis
++ Non-determinism in testing (test flakiness)
++ Analysis of crowd-generated code
++ Genetic Programming and its applications to SE 
