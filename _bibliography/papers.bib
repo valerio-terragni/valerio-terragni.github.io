@@ -1,15 +1,3 @@
-@article{cho2024automated,
-      title={Automated Trustworthiness Testing for Machine Learning Classifiers}, 
-      author={Steven Cho and Seaton Cousins-Baxter and Stefano Ruberto and Valerio Terragni},
-      year={2024},
-      url = {https://arxiv.org/abs/2406.05251},
-      journal = {arXiv},
-      eprint={2406.05251},
-      archivePrefix={arXiv},
-      series = {arXiv 2024},
-      pdf = {cho-tower-2024.pdf},
-      abstract = {Machine Learning (ML) has become an integral part of our society, commonly used in critical domains such as finance, healthcare, and transportation. Therefore, it is crucial to evaluate not only whether ML models make correct predictions but also whether they do so for the correct reasons, ensuring our trust that will perform well on unseen data. This concept is known as trustworthiness in ML. Recently, explainable techniques (e.g., LIME, SHAP) have been developed to interpret the decision-making processes of ML models, providing explanations for their predictions (e.g., words in the input that influenced the prediction the most). Assessing the plausibility of these explanations can enhance our confidence in the models' trustworthiness. However, current approaches typically rely on human judgment to determine the plausibility of these explanations. This paper proposes TOWER, the first technique to automatically create trustworthiness oracles that determine whether text classifier predictions are trustworthy. It leverages word embeddings to automatically evaluate the trustworthiness of a model-agnostic text classifiers based on the outputs of explanatory techniques. Our hypothesis is that a prediction is trustworthy if the words in its explanation are semantically related to the predicted class. We perform unsupervised learning with untrustworthy models obtained from noisy data to find the optimal configuration of TOWER. We then evaluated TOWER on a human-labeled trustworthiness dataset that we created. The results show that TOWER can detect a decrease in trustworthiness as noise increases, but is not effective when evaluated against the human-labeled dataset. Our initial experiments suggest that our hypothesis is valid and promising, but further research is needed to better understand the relationship between explanations and trustworthiness issues.}
-}
 
 @inproceedings{terragni2024future,
       title={{The Future of Software Engineering in an AI-Driven World}}, 
@@ -23,6 +11,18 @@
       
 }
 
+@article{cho2024automated,
+      title={Automated Trustworthiness Testing for Machine Learning Classifiers}, 
+      author={Steven Cho and Seaton Cousins-Baxter and Stefano Ruberto and Valerio Terragni},
+      year={2024},
+      url = {https://arxiv.org/abs/2406.05251},
+      journal = {arXiv},
+      eprint={2406.05251},
+      archivePrefix={arXiv},
+      series = {arXiv 2024},
+      pdf = {cho-tower-2024.pdf},
+      abstract = {Machine Learning (ML) has become an integral part of our society, commonly used in critical domains such as finance, healthcare, and transportation. Therefore, it is crucial to evaluate not only whether ML models make correct predictions but also whether they do so for the correct reasons, ensuring our trust that will perform well on unseen data. This concept is known as trustworthiness in ML. Recently, explainable techniques (e.g., LIME, SHAP) have been developed to interpret the decision-making processes of ML models, providing explanations for their predictions (e.g., words in the input that influenced the prediction the most). Assessing the plausibility of these explanations can enhance our confidence in the models' trustworthiness. However, current approaches typically rely on human judgment to determine the plausibility of these explanations. This paper proposes TOWER, the first technique to automatically create trustworthiness oracles that determine whether text classifier predictions are trustworthy. It leverages word embeddings to automatically evaluate the trustworthiness of a model-agnostic text classifiers based on the outputs of explanatory techniques. Our hypothesis is that a prediction is trustworthy if the words in its explanation are semantically related to the predicted class. We perform unsupervised learning with untrustworthy models obtained from noisy data to find the optimal configuration of TOWER. We then evaluated TOWER on a human-labeled trustworthiness dataset that we created. The results show that TOWER can detect a decrease in trustworthiness as noise increases, but is not effective when evaluated against the human-labeled dataset. Our initial experiments suggest that our hypothesis is valid and promising, but further research is needed to better understand the relationship between explanations and trustworthiness issues.}
+}
 
 
 @article{xu-tosem-2024,
@@ -60,7 +60,8 @@ pdf = {zhu-tosem-2023.pdf}
 
 
 @ARTICLE {ayerdi-genmorph-tse-2024,
-author = {J. Ayerdi and V. Terragni and G. Jahangirova and A. Arrieta and P. Tonella},
+author = 	{Jon Ayerdi and Valerio Terragni and Gunel Jahangirova and Aitor Arrieta and 
+	Paolo Tonella},
 journal = {IEEE Transactions on Software Engineering},
 title = {{GenMorph: Automatically Generating Metamorphic Relations via Genetic Programming}},
 year = {2024},
@@ -93,7 +94,7 @@ pdf = {ayerdi-tse-2024.pdf}
                   Ali Mohebbi and
                   Mauro Pezz{\`{e}} and
                   Valerio Terragni},
-  title        = {{Semantic matching in {GUI} test reuse}},
+  title        = {{Semantic matching in GUI test reuse}},
   journal      = {Empirical Software Engineering},
   volume       = {29},
   number       = {3},
