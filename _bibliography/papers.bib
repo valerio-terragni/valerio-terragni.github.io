@@ -1,4 +1,22 @@
 
+@article{jayasuriya2024emse,
+  author = {Jayasuriya, Dhanushka and Ou, Samuel and Hegde, Saakshi and Terragni, Valerio and Dietrich, Jens and Blincoe, Kelly},
+  title = {An Extended Study of Syntactic Breaking Changes in the Wild},
+  journal = {Empirical Software Engineering},
+  year = {2024},
+  pages = {In press}
+}
+
+
+@inproceedings{xu2024mrAdopt,
+ author = {Xu, Congying and Chen, Songqiang and Wu, Jiarong and Cheung, Shing-Chi and Terragni, Valerio and Zhu, Hengcheng and Cao, Jialun},
+ journal = {arXiv preprint arXiv:2408.15815},
+ title = {MR-Adopt: Automatic Deduction of Input Transformation Function for Metamorphic Testing},
+      booktitle = {IEEE/ACM International Conference on Automated Software Engineering},
+ year = {2024},
+  pdf = {xu-ase-2024.pdf},
+}
+
 @inproceedings{terragni2024future,
       title={{The Future of Software Engineering in an AI-Driven World}}, 
       author={Valerio Terragni and Partha Roop and Kelly Blincoe},
@@ -32,30 +50,29 @@ year = {2024},
 publisher = {ACM},
 doi = {10.1145/3656340},
 abstract = {Metamorphic Testing (MT) alleviates the oracle problem by defining oracles based on metamorphic relations (MRs), that govern multiple related inputs and their outputs. However, designing MRs is challenging, as it requires domain-specific knowledge. This hinders the widespread adoption of MT. We observe that developer-written test cases can embed domain knowledge that encodes MRs. Such encoded MRs could be synthesized for testing not only their original programs but also other programs that share similar functionalities. In this paper, we propose MR-Scout to automatically synthesize MRs from test cases in open-source software (OSS) projects. MR-Scout first discovers MR-encoded test cases (MTCs), and then synthesizes the encoded MRs into parameterized methods (called codified MRs), and filters out MRs that demonstrate poor quality for new test case generation. MR-Scout discovered over 11,000 MTCs from 701 OSS projects. Experimental results show that over 97\% of codified MRs are of high quality for automated test case generation, demonstrating the practical applicability of MR-Scout. Furthermore, codified-MRs-based tests effectively enhance the test adequacy of programs with developer-written tests, leading to 13.52\% and 9.42\% increases in line coverage and mutation score, respectively. Our qualitative study shows that 55.76\% to 76.92\% of codified MRs are easily comprehensible for developers.},
-note = {Just Accepted},
-journal = {ACM Trans. Softw. Eng. Methodol.},
+journal = {ACM Transaction on Software Engineering and Methodology},
 month = {apr},
 series = {ACM TOSEM},
-journal = {ACM Transaction on Software Engineering and Methodology},
 pdf={xu-tosem-2024.pdf}
 }
 
 
-@article{zhu-tosem-2023,
+@article{zhu-tosem-2024,
 author = {Zhu, Hengcheng and Wei, Lili and Terragni, Valerio and Liu, Yepang and Cheung, Shing-Chi and Wu, Jiarong and Sheng, Qin and Zhang, Bing and Song, Lihong},
 title = {{StubCoder: Automated Generation and Repair of Stub Code for Mock Objects}},
-year = {2023},
+year = {2024},
 series = {ACM TOSEM},
 volume = {33},
 number = {1},
 publisher = {ACM},
+pages        = {16:1--16:31},
 doi = {10.1145/3617171},
 abstract = {Mocking is an essential unit testing technique for isolating the class under test from its dependencies. Developers often leverage mocking frameworks to develop stub code that specifies the behaviors of mock objects. However, developing and maintaining stub code is labor-intensive and error-prone. In this article, we present StubCoder to automatically generate and repair stub code for regression testing. StubCoder implements a novel evolutionary algorithm that synthesizes test-passing stub code guided by the runtime behavior of test cases. We evaluated our proposed approach on 59 test cases from 13 open source projects. Our evaluation results show that StubCoder can effectively generate stub code for incomplete test cases without stub code and repair obsolete test cases with broken stub code.},
 journal = {ACM Transaction on Software Engineering and Methodology},
 month = {nov},
 articleno = {16},
 numpages = {31},
-pdf = {zhu-tosem-2023.pdf}
+pdf = {zhu-tosem-2024.pdf}
 }
 
 
