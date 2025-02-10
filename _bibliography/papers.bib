@@ -20,7 +20,29 @@
   series = {ICST 2025},
   pdf ={dietrich-icst-2025.pdf},
   year      = {2025},
-  publisher = {IEEE}
+  publisher = {IEEE},
+  abstract = {Recent concerns about software supply chain security
+have led to the emergence of different binaries built from the
+same source code. This will sometimes result in binaries that are
+not identical and therefore have different cryptographic hashes.
+The question arises whether those binaries are still equivalent,
+i.e., whether they have the same behaviour. We explore whether
+differential testing can be used to provide evidence for nonequivalence.
+We study this for 3,541 pairs of binaries built for the same
+Maven artifact version, distributed on Maven Central, Google
+Assured Open Source Software and/or Oracle Build-From-Source.
+We use EVOSUITE to generate tests for the baseline binary from
+Maven Central, run these tests against this baseline binary and
+any available alternately built binaries, and compare the results for
+consistency. We argue that any differences may indicate variations
+in program behaviour and could, therefore, be used to detect
+compromised binaries or failures at runtime.
+Although our preliminary experiments did not reveal any
+compromised builds, our approach successfully identified three
+build configuration errors that caused changes in runtime
+behaviour. These findings underscore the potential of our method
+to uncover subtle build differences, highlighting opportunities for
+improvement.}
 }
 
 @inproceedings{Terragni2025SystemLevel,
@@ -31,7 +53,29 @@
     series = {ICST 2025},
   year      = {2025},
   pdf = {terragni-icstEdu-2025.pdf},
-  publisher = {IEEE}
+  publisher = {IEEE},
+  abstract = {Automated assessment of programming assignments
+is essential in software engineering education, especially for large
+classes where manual grading is impractical. While static analysis
+can evaluate code style and syntax correctness, it cannot assess
+the functional correctness of students’ implementations. Dynamic
+analysis through software testing can verify program behavior
+and provide automated feedback to students. However, traditional
+unit and integration tests often restrict students’ design freedom
+by requiring predefined interfaces and method declarations.
+In this paper, we present SYSCLI, a novel testing framework
+for system-level testing of JAVA-based command-Line interface
+applications. SYSCLI enables test suites that evaluate the
+functional correctness of students’ implementations without
+limiting their design choices. We also share our experience using
+SYSCLI in a second-year programming course at the University
+of Auckland, which focuses on object-oriented programming
+and design patterns and enrolls over 300 students each offering.
+Analysis of student assignments from 2023 and 2024 shows that
+SYSCLI is effective in automating grading, allows software design
+flexibility, and provides actionable feedback to students. Our
+experience report offers valuable insights into assessing students’
+implementation of object-oriented concepts and design patterns.}
 }
 
 @inproceedings{Terragni2025Differential,
@@ -39,6 +83,25 @@
                Cheung, Shing-Chi},
   title     = {Differential Testing of Concurrent Classes},
   booktitle = {IEEE Conference on Software Testing, Verification and Validation},
+  abstract = {Concurrent programs are pervasive, yet difficult
+to write. The inherent complexity of thread synchronization
+makes the evolution of concurrent programs prone to concurrency
+faults. Previous work on regression testing concurrent programs
+focused on reducing the cost of re-run the existing tests. However,
+existing tests may not be able to expose the regression faults
+in the modified program. In this paper, we present CONDIFF a
+differential testing technique that generates concurrent tests and
+oracles to expose behavioral differences between two versions of
+a given concurrent class. Since concurrent programs are nondeterministic, this involves exploring all possible non-deterministic
+thread interleavings of each generated test on both versions.
+However, we can afford to analyze only a few concurrent tests
+due to the high cost of exhaustive interleaving exploration. To
+address the challenge, CONDIFF leverages the information of
+code changes and trace analysis to analyze only those concurrent
+tests that are likely to expose behavioral differences (if they exist).
+We evaluated CONDIFF on a set of Java classes. Our results
+show that CONDIFF can effectively generate concurrent tests that
+expose behavioral differences.},
     series = {ICST 2025},
   year      = {2025},
   pdf = {terragni-icst-2025.pdf},
@@ -73,6 +136,7 @@ doi = {10.1145/3715003},
 abstract = {A paradigm shift is underway in Software Engineering, with AI systems such as LLMs playing an increasingly important role in boosting software development productivity. This trend is anticipated to persist. In the next years, we expect a growing symbiotic partnership between human software developers and AI. The Software Engineering research community cannot afford to overlook this trend; we must address the key research challenges posed by the integration of AI into the software development process. In this paper, we present our vision of the future of software development in an AI-driven world and explore the key challenges that our research community should address to realize this vision.},
 journal = {ACM Trans. Softw. Eng. Methodol.},
 month = jan,
+series = {ACM TOSEM},
 pdf = {terragni-tosem-2025.pdf}
 }
 
@@ -225,7 +289,7 @@ pdf = {jayasuriya-fse-2024.pdf},
   pages        = {70},
   year         = {2024},
   doi          = {10.1007/S10664-023-10406-8},
-  series          = { ESE},
+  series          = {Springer ESE},
   pdf = {khalili-ese-2024.pdf},
   abstract = {Reusing test cases across apps that share similar functionalities reduces both the effort required to produce useful test cases and the time to offer reliable apps to the market. The main approaches to reuse test cases across apps combine different semantic matching and test generation algorithms to migrate test cases across Android apps. In this paper we define a general framework to evaluate the impact and effectiveness of different choices of semantic matching with Test Reuse approaches on migrating test cases across Android apps. We offer a thorough comparative evaluation of the many possible choices for the components of test migration processes. We propose an approach that combines the most effective choices for each component of the test migration process to obtain an effective approach. We report the results of an experimental evaluation on 8,099 GUI events from 337 test configurations. The results attest the prominent impact of semantic matching on test reuse. They indicate that sentence level perform better than word level embedding techniques. They surprisingly suggest a negligible impact of the corpus of documents used for building the word embedding model for the Semantic Matching Algorithm. They provide evidence that semantic matching of events of selected types perform better than semantic matching of events of all types. They show that the effectiveness of overall Test Reuse approach depends on the characteristics of the test suites and apps. The replication package that we make publicly available online (https://star.inf.usi.ch/#/software-data/11) allows researchers and practitioners to refine the results with additional experiments and evaluate other choices for test reuse components.}
 }
