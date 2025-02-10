@@ -282,6 +282,8 @@
   <span class="links">
     [<a class="bibtex">BIBTEX</a>]
   
+    [<a class="abstract">Abstract</a>]
+  
   
   
   
@@ -298,6 +300,31 @@
   </span>
 
   <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>Recent concerns about software supply chain security
+have led to the emergence of different binaries built from the
+same source code. This will sometimes result in binaries that are
+not identical and therefore have different cryptographic hashes.
+The question arises whether those binaries are still equivalent,
+i.e., whether they have the same behaviour. We explore whether
+differential testing can be used to provide evidence for nonequivalence.
+We study this for 3,541 pairs of binaries built for the same
+Maven artifact version, distributed on Maven Central, Google
+Assured Open Source Software and/or Oracle Build-From-Source.
+We use EVOSUITE to generate tests for the baseline binary from
+Maven Central, run these tests against this baseline binary and
+any available alternately built binaries, and compare the results for
+consistency. We argue that any differences may indicate variations
+in program behaviour and could, therefore, be used to detect
+compromised binaries or failures at runtime.
+Although our preliminary experiments did not reveal any
+compromised builds, our approach successfully identified three
+build configuration errors that caused changes in runtime
+behaviour. These findings underscore the potential of our method
+to uncover subtle build differences, highlighting opportunities for
+improvement.</p>
+  </span>
   
   <span class="bibtex hidden2">
     <p>@inproceedings{Dietrich2025CrossBuild,
@@ -367,6 +394,8 @@
   <span class="links">
     [<a class="bibtex">BIBTEX</a>]
   
+    [<a class="abstract">Abstract</a>]
+  
   
   
   
@@ -383,6 +412,31 @@
   </span>
 
   <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>Automated assessment of programming assignments
+is essential in software engineering education, especially for large
+classes where manual grading is impractical. While static analysis
+can evaluate code style and syntax correctness, it cannot assess
+the functional correctness of students’ implementations. Dynamic
+analysis through software testing can verify program behavior
+and provide automated feedback to students. However, traditional
+unit and integration tests often restrict students’ design freedom
+by requiring predefined interfaces and method declarations.
+In this paper, we present SYSCLI, a novel testing framework
+for system-level testing of JAVA-based command-Line interface
+applications. SYSCLI enables test suites that evaluate the
+functional correctness of students’ implementations without
+limiting their design choices. We also share our experience using
+SYSCLI in a second-year programming course at the University
+of Auckland, which focuses on object-oriented programming
+and design patterns and enrolls over 300 students each offering.
+Analysis of student assignments from 2023 and 2024 shows that
+SYSCLI is effective in automating grading, allows software design
+flexibility, and provides actionable feedback to students. Our
+experience report offers valuable insights into assessing students’
+implementation of object-oriented concepts and design patterns.</p>
+  </span>
   
   <span class="bibtex hidden2">
     <p>@inproceedings{Terragni2025SystemLevel,
@@ -452,6 +506,8 @@
   <span class="links">
     [<a class="bibtex">BIBTEX</a>]
   
+    [<a class="abstract">Abstract</a>]
+  
   
   
   
@@ -468,6 +524,28 @@
   </span>
 
   <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>Concurrent programs are pervasive, yet difficult
+to write. The inherent complexity of thread synchronization
+makes the evolution of concurrent programs prone to concurrency
+faults. Previous work on regression testing concurrent programs
+focused on reducing the cost of re-run the existing tests. However,
+existing tests may not be able to expose the regression faults
+in the modified program. In this paper, we present CONDIFF a
+differential testing technique that generates concurrent tests and
+oracles to expose behavioral differences between two versions of
+a given concurrent class. Since concurrent programs are nondeterministic, this involves exploring all possible non-deterministic
+thread interleavings of each generated test on both versions.
+However, we can afford to analyze only a few concurrent tests
+due to the high cost of exhaustive interleaving exploration. To
+address the challenge, CONDIFF leverages the information of
+code changes and trace analysis to analyze only those concurrent
+tests that are likely to expose behavioral differences (if they exist).
+We evaluated CONDIFF on a set of Java classes. Our results
+show that CONDIFF can effectively generate concurrent tests that
+expose behavioral differences.</p>
+  </span>
   
   <span class="bibtex hidden2">
     <p>@inproceedings{Terragni2025Differential,
@@ -621,7 +699,7 @@
 </div>
 </li>
 <li>
-<span class="fa-li"><i></i></span>
+<span class="fa-li"><i>ACM TOSEM</i></span>
 
 
 
@@ -887,7 +965,7 @@
 <h3 class="year">2024</h3>
 <ol class="bibliography">
 <li>
-<span class="fa-li"><i> ESE</i></span>
+<span class="fa-li"><i>Springer ESE</i></span>
 
 
 
