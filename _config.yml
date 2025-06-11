@@ -8,7 +8,7 @@ footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-url:  # the base hostname & protocol for your site
+url: # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated:
 
@@ -36,7 +36,6 @@ research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 
 contact_note: >
-  
 
 google_analytics: G-VYCMDXQ2KX # out your google-analytics code
 
@@ -53,16 +52,16 @@ paginate_path: /blog/page:num/
 
 text:
   pagination:
-    newer: 'Newer'
-    older: 'Older'
+    newer: "Newer"
+    older: "Older"
 
 # Comments
 disqus_shortname: valerio # put your disqus shortname
 
 # Optional features
-show_social_icons:  false
-enable_anchorjs:    false
-enable_katex:       true
+show_social_icons: false
+enable_anchorjs: false
+enable_katex: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -73,25 +72,24 @@ markdown: kramdown
 highlighter: pygments
 
 # Includes & excludes
-include: ['_pages']
+include: ["_pages"]
 exclude: [vendor]
 
 # Plug-ins
 plugins:
-    - jekyll-email-protect
-    - jekyll-paginate
-    - jekyll/scholar
-    - jemoji
+  - jekyll-email-protect
+  - jekyll-paginate
+  - jekyll/scholar
+  - jemoji
 
 # Jekyll-Scholar
 scholar:
-
   last_name: Terragni
 
-  style: acm-sig-proceedings
+  style: ieee #acm-sig-proceedings
   locale: en
 
-  sort_by: year, ordering
+  sort_by: none
   order: descending
 
   source: /_bibliography/
@@ -104,7 +102,20 @@ scholar:
   details_dir: bibliography
   details_layout: bibtex.html
   details_link: Details
-  bibtex_skip_fields: ['month_numeric', 'abstract', 'pdf', 'slides', 'code', 'award', 'order', 'series', 'ordering', 'video' , 'html']
+  bibtex_skip_fields:
+    [
+      "month_numeric",
+      "abstract",
+      "pdf",
+      "slides",
+      "code",
+      "award",
+      "order",
+      "series",
+      "ordering",
+      "video",
+      "html",
+    ]
 
   query: "@*"
 
