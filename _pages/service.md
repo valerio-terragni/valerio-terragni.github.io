@@ -27,7 +27,7 @@ description: Professional Service and Awards.
 <br>
 - IEEE International Conference on Software Analysis, Evolution and Reengineering  (**SANER**): 2025 (research track)
 <br>
-- Asia-Pacific Software Engineering Conference (**ASPSEC**): 2023 (education track)
+- Asia-Pacific Software Engineering Conference (**ASPSEC**): 2025 (seip track), 2023 (education track)
 <br>
 - International Symposium on Search-Based Software Engineering (**SSBSE**): 2024, 2023, 2022 (research track)
 <br>
@@ -87,10 +87,10 @@ description: Professional Service and Awards.
 - 2022 IEEE Distinguished Reviewer Award (ISSRE 2022)
 - 2021 Winner of a Facebook Research award (PI - 100,000 USD) 
 - 2021 (nomination) Best paper award GECCO 2021
--	2020 (nomination) Best paper award EuroGP 2020
+- 2020 (nomination) Best paper award EuroGP 2020
 - 2019 Winner of The Facebook Testing and Verification Research Award (coPi - 50,000 USD)
 - 2019 IEEE TCSE Distinguished Paper Award (ICST 2019)
--	2016 Invited attendee at the Microsoft Research Asia PhD Forum 
+- 2016 Invited attendee at the Microsoft Research Asia PhD Forum 
 - 2016 SIGSOFT CAPS Travel Grant (1,000 USD) 
 
 

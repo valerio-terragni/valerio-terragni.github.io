@@ -1,3 +1,60 @@
+
+@inproceedings{cho2025metamorphic,
+  author    = {Steven Cho and Stefano Ruberto and Valerio Terragni},
+  title     = {Metamorphic Testing of Large Language Models for Natural Language Processing},
+  booktitle = {Proceedings of the IEEE International Conference on Software Maintenance and Evolution (ICSME)},
+  year      = {2025},
+  publisher = {IEEE},
+  note      = {To appear},
+  abstract  = {Using Large Language Models (LLMs) to perform Natural Language Processing (NLP) tasks has become increasingly pervasive. The versatile nature of LLMs makes them applicable to a wide range of such tasks. While the performance of recent LLMs is generally outstanding, several studies have shown that LLMs can often produce incorrect results. Automatically identifying these faulty behaviors is extremely useful for improving the effectiveness of LLMs. One obstacle to this is the limited availability of labelled datasets, necessitating an oracle to determine the correctness of LLMs' behaviors. Metamorphic Testing (MT) is a popular testing approach that alleviates the oracle problem. At the core of MT are Metamorphic Relations (MRs) that define the relationship between the outputs of related inputs. MT can expose faulty behaviors without the need for explicit oracles. This paper presents the most comprehensive study of MT for LLMs to date. We conducted a literature review and collected 191 MRs for NLP tasks. We implemented a representative subset (38 MRs) and conducted experiments with four popular LLMs, running approximately 550,000 metamorphic test cases. The results shed light on the capabilities and opportunities of MT for LLMs, as well as its limitations.}
+}
+
+
+@inproceedings{kupari2025adoption,
+  author    = {Alvari Kupari and Nasser Giacaman and Valerio Terragni},
+  title     = {Adoption and Evolution of Code Style and Best Programming Practices in Open-Source Projects},
+  booktitle = {Proceedings of the IEEE International Conference on Software Maintenance and Evolution (ICSME)},
+  year      = {2025},
+  publisher = {IEEE},
+  note      = {To appear},
+  abstract  = {Following code style conventions in software projects is essential for maintaining overall code quality. Adhering to these conventions improves maintainability, understandability, and extensibility. Additionally, following best practices during software development enhances performance and reduces the likelihood of errors. This paper investigates the adoption and evolution of code style and programming practices in open-source Java projects. We analyze 1,000 popular open-source Java repositories on GitHub to examine the prevalence of these practices and identify the most common violations. Additionally, we study a subset of active repositories on a monthly basis to track changes in adherence to coding standards over time. The results provide valuable insights into the adoption of code style and programming practices, highlighting key areas for improvement in the open-source development community. Furthermore, the paper identifies important lessons learned and suggests future directions for improving code quality in Java projects.}
+}
+
+
+
+@article{tung-trust-fse2025,
+  author    = {Lam Nguyen Tung and Steven Cho and Xiaoning Du and Neelofar Neelofar and Valerio Terragni and Stefano Ruberto and Aldeida Aleti},
+  title     = {Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers},
+  journal   = {Proceedings of the ACM on Software Engineering},
+  volume    = {2},
+  number    = {FSE},
+  year      = {2025},
+  articleno = {FSE106},
+  doi = {10.1145/3729376},
+  abstract  = {Machine learning (ML) for text classification has been widely used in various domains, such as toxicity detection, chatbot consulting, and review analysis. These applications can significantly impact ethics, economics, and human behavior, raising serious concerns about trusting ML decisions. Several studies indicate that traditional uncertainty metrics, such as model confidence, and performance metrics, like accuracy, are insufficient to build human trust in ML models. These models often learn spurious correlations during training and predict based on them during inference. When deployed in the real world, where such correlations are absent, their performance can deteriorate significantly. To avoid this, a common practice is to test whether predictions are made reasonably based on valid patterns in the data, Along with this, a challenge known as the trustworthiness oracle problem has been introduced. So far, due to the lack of automated trustworthiness oracles, the assessment requires manual validation, based on the decision process disclosed by explanation methods. However, this approach is time-consuming, error-prone, and not scalable. To address this problem, we propose TOKI, the first automated trustworthiness oracle generation method for text classifiers. TOKI automatically checks whether the words contributing the most to a prediction are semantically related to the predicted class. Specifically, we leverage ML explanation methods to extract the decision-contributing words and measure their semantic relatedness with the class based on word embeddings. As a demonstration of its practical usefulness, we also introduce a novel adversarial attack method that targets trustworthiness vulnerabilities identified by TOKI. We compare TOKI with a naive baseline based solely on model confidence. To evaluate their alignment with human judgement, experiments are conducted on human-created ground truths of approximately 6,000 predictions. Additionally, we compare the effectiveness of TOKI-guided adversarial attack method with A2T, a state-of-the-art adversarial attack method for text classification. Results show that (1) relying on prediction uncertainty metrics, such as model confidence, cannot effectively distinguish between trustworthy and untrustworthy predictions, (2) TOKI achieves 142% higher accuracy than the naive baseline, and (3) TOKI-guided adversarial attack method is more effective with fewer perturbations than A2T.},
+  pdf       = {tung-fse-2025.pdf},
+  series    = {FSE 2025}
+}
+
+@article{Zhu2025MockAssertions,
+  author    = {Zhu, Hengcheng and 
+               Terragni, Valerio and 
+               Wei, Lili and 
+               Cheung, Shing-Chi and 
+               Wu, Jiarong and 
+               Liu, Yepang},
+  title     = {Understanding and Characterizing Mock Assertions in Unit Tests},
+  journal   = {Proceedings of the ACM on Software Engineering},
+  volume    = {2},
+  number    = {FSE},
+  articleno = {FSE026},
+  year      = {2025},
+  doi  = {10.1145/3715741},
+  abstract = {Mock assertions provide developers with a powerful means to validate program behaviors that are unobservable to test assertions. Despite their significance, they are rarely considered by automated test generation techniques. Effective generation of mock assertions requires understanding how they are used in practice. Although previous studies highlighted the importance of mock assertions, none provide insight into their usages. To bridge this gap, we conducted the first empirical study on mock assertions, examining their adoption, the characteristics of the verified method invocations, and their effectiveness in fault detection. Our analysis of 4,652 test cases from 11 popular Java projects reveals that mock assertions are mostly applied to validating specific kinds of method calls, such as those interacting with external resources and those reflecting whether a certain code path was traversed in systems under test. Additionally, we find that mock assertions complement traditional test assertions by ensuring the desired side effects have been produced, validating control flow logic, and checking internal computation results. Our findings contribute to a better understanding of mock assertion usages and provide a foundation for future related research such as automated test generation that support mock assertions.},
+  pdf = {zhu-fse-2025.pdf},
+  series = {FSE 2025}
+}
+
 @inproceedings{Ruberto2025FromImplemented,
   author    = {Ruberto, Stefano and 
                Perera, Judith and
@@ -6,6 +63,9 @@
   title     = {From Implemented to Expected Behaviors: Leveraging Regression Oracles for Non-Regression Fault Detection Using LLMs},
   booktitle = {IEEE Conference on Software Testing, Verification and Validation Workshop},
   year      = {2025},
+  pages = {37-40},
+  doi = {10.1109/ICSTW64639.2025.10962503},
+  pdf ={ruberto-aist-2025.pdf},
   series = {AIST 2025},
   publisher = {IEEE}
 }
@@ -19,6 +79,7 @@
   booktitle = {IEEE Conference on Software Testing, Verification and Validation},
   series = {ICST 2025},
   pdf ={dietrich-icst-2025.pdf},
+  pages = {592-596},
   year      = {2025},
   publisher = {IEEE},
   abstract = {Recent concerns about software supply chain security
@@ -54,6 +115,8 @@ improvement.}
   year      = {2025},
   pdf = {terragni-icstEdu-2025.pdf},
   publisher = {IEEE},
+  doi = {10.1109/ICST62969.2025.10989046},
+  pages = {687-698},
   abstract = {Automated assessment of programming assignments
 is essential in software engineering education, especially for large
 classes where manual grading is impractical. While static analysis
@@ -102,30 +165,15 @@ tests that are likely to expose behavioral differences (if they exist).
 We evaluated CONDIFF on a set of Java classes. Our results
 show that CONDIFF can effectively generate concurrent tests that
 expose behavioral differences.},
+doi = {10.1109/ICST62969.2025.10989027},
     series = {ICST 2025},
   year      = {2025},
+  pages = {255-266},
   pdf = {terragni-icst-2025.pdf},
   publisher = {IEEE}
   }
 
 
-@article{Zhu2025MockAssertions,
-  author    = {Zhu, Hengcheng and 
-               Terragni, Valerio and 
-               Wei, Lili and 
-               Cheung, Shing-Chi and 
-               Wu, Jiarong and 
-               Liu, Yepang},
-  title     = {Understanding and Characterizing Mock Assertions in Unit Tests},
-  journal   = {Proceedings of the ACM on Software Engineering},
-  volume    = {2},
-  number    = {FSE},
-  articleno = {FSE026},
-  year      = {2025},
-  abstract = {Mock assertions provide developers with a powerful means to validate program behaviors that are unobservable to test assertions. Despite their significance, they are rarely considered by automated test generation techniques. Effective generation of mock assertions requires understanding how they are used in practice. Although previous studies highlighted the importance of mock assertions, none provide insight into their usages. To bridge this gap, we conducted the first empirical study on mock assertions, examining their adoption, the characteristics of the verified method invocations, and their effectiveness in fault detection. Our analysis of 4,652 test cases from 11 popular Java projects reveals that mock assertions are mostly applied to validating specific kinds of method calls, such as those interacting with external resources and those reflecting whether a certain code path was traversed in systems under test. Additionally, we find that mock assertions complement traditional test assertions by ensuring the desired side effects have been produced, validating control flow logic, and checking internal computation results. Our findings contribute to a better understanding of mock assertion usages and provide a foundation for future related research such as automated test generation that support mock assertions.},
-  pdf = {zhu-fse-2025.pdf},
-  series = {FSE 2025}
-}
 
 
 @article{terragni2025future,
@@ -158,6 +206,19 @@ pdf = {terragni-tosem-2025.pdf}
   abstract = {Libraries assist in accelerating the development of software applications by providing reusable functionalities. Libraries and applications that declare these libraries as dependencies become their clients. However, as libraries evolve, maintaining the dependencies in client projects can be challenging if the new version contains breaking changes. Yet, limited research focuses on analyzing the impact of breaking changes on client projects when updating dependencies in the wild. Hence, we conduct an empirical analysis using Java projects built using Maven to investigate the impact of breaking changes introduced between two library versions. Our dataset included 18,415 Maven artifacts, declaring 142,355 direct dependencies, out of which 71.60\% were not up-to-date. We automatically updated these dependencies and discovered that 11.58\% of the dependency updates resulted in breaking changes that affected the client, and almost half of them were introduced during a non-major update. We analyzed the changes in the libraries that contributed towards these breaking changes, and our results indicate that changes in transitive dependencies were a significant factor in introducing breaking changes. We further investigated if it was common for clients to use functionalities of transitive dependencies directly without declaring them. This showed that over half of the clients use transitive functionality. Therefore, we analyzed actions suggested to resolve these breaking changes introduced by transitive dependencies under the discussions on open-source platforms, and the frequently suggested action was to exclude the transitive dependency from the project configuration.},
   pdf = {jayasuriya-ese-2025.pdf}
 }
+
+@article{giacamanLLM2025,
+author = {Giacaman, Nasser and Terragni, Valerio},
+title = {Empowering Computing Students with Large Language Models by Developing an Escape Room Game},
+year = {2025},
+isbn = {9798400714450},
+doi = {10.1145/3708897},
+pdf = {giacaman-EngageCSEdu-2025},
+journal ={The ACM Teaching Materials for Computing Collection},
+series = {ACM EngageCSEdu},
+abstract = {In this project, computing students learn to integrate large language models (LLMs) into a software system. Students develop a Java application with a basic graphical user interface (GUI) using JavaFX, gain practical experience with prompt engineering, and learn about the impact of LLM parameters and conversational roles. Students are provided with a Javabased API that connects with OpenAI's GPT model. The project emphasizes teaching students to manage LLM API calls, enhance GUI responsiveness, and improve the user experience all in the context of an AI-powered application. This experience equips them with critical skills in software development and AI application. It prepares them for advanced software development by learning how to create effective LLM prompts to create intelligent and user-friendly applications. We share the experience of using this project and provide guidelines for assessing it in a second-year software engineering undergraduate course, where students' prior programming experience is limited to the prerequisite CS2 course on object-oriented programming. In the case study we present, the project involved developing a riddle-solving escape room, which we called EscAIpe Room.},
+}
+
 
 
 @article{chen2024ieee-access,

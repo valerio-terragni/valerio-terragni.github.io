@@ -65,21 +65,6 @@ enable_anchorjs:    false
 enable_katex:       true
 
 # -----------------------------------------------------------------------------
-# Collections
-# -----------------------------------------------------------------------------
-collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
-
-news_limit: 100
-
-# -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
