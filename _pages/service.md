@@ -6,8 +6,10 @@ description: Professional Service and Awards.
 ---
 
 **Conference Program Committees**
+
+Since 2021, I have served on **45** program committees for top software engineering conferences.
 <br>
-- IEEE/ACM International Conference on Software Engineering  (**ICSE**): 2024, 2023 (SEET track) 2024 (Demo track)
+- IEEE/ACM International Conference on Software Engineering  (**ICSE**): 2026, 2024, 2023 (SEET track) 2024 (Demo track)
 <br>
 - ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (**ESEC/FSE**): 2024 (poster track), 2023 (research track), 2022 (IVR track)
 <br>
@@ -37,6 +39,8 @@ description: Professional Service and Awards.
 <br>
 - International Conference on Software Quality, Reliability, and Security (**QRS**): 2021 (research track)
 <br>
+- International Conference on Testing Software and Systems (**ICTSS**): 2025 (research track)
+<br>
 - International Workshop on Metamorphic Testing (**MET**): 2024, 2023 (research track)
 <br>
 - International Workshop on ML Techniques for Software Quality Evolution (**MaLTeSQuE**): 2022, 2021, 2020 (research track)
@@ -63,6 +67,8 @@ description: Professional Service and Awards.
 - IEEE Transactions on Software Engineering (**TSE**)
 <br>
 - Transactions on Software Engineering and Methodology (**TOSEM**)
+<br>
+- Information and Software Technology (**IST**)
 <br>
 - Journal of Systems & Software (**JSS**)
 <br>

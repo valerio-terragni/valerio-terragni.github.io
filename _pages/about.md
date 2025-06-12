@@ -22,5 +22,6 @@ I am a Software Engineering researcher, my main research topics are:
 - SE4AI
 - AI4SE
 - Metamorphic Testing
-- Automated est Input and Oracle Generation
+- Automated Input and Oracle Generation
 - Machine Learning Testing
+- Software Education
