@@ -10,13 +10,13 @@ years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015]
 
   <h3 class="year">{{y}}</h3>
 {% if y == 2016 %}
-<img border="0" src="https://www.quinlanandassociates.com/wp-content/uploads/2016/05/hkust.jpg" height="60">
+<img border="0" src="https://www.quinlanandassociates.com/wp-content/uploads/2016/05/hkust.jpg" height="80">
 {% endif %}
 {% if y == 2020 %}
-<img border="0" src="https://study-eu.s3.amazonaws.com/uploads/university/usi-universit--della-svizzera-italiana-logo.png" height="60">
+<img border="0" src="https://study-eu.s3.amazonaws.com/uploads/university/usi-universit--della-svizzera-italiana-logo.png" height="80">
 {% endif %}
 {% if y == 2025 %}
-<img border="0" src="https://ugc.futurelearn.com/uploads/images/eb/8c/eb8cfd6e-af59-4a09-a0f2-3e39078a7cb2.svg" height="60">
+<img border="0" src="../assets/img/logo-old.jpg" >
 {% endif %}
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
