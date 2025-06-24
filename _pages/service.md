@@ -7,97 +7,101 @@ description: Professional Service and Awards.
 
 **Conference Program Committees**
 
-Since 2021, I have served on **45** program committees for top software engineering conferences.
+Since 2021, I have served on **52** program committees for top software engineering conferences.
 <br>
-- IEEE/ACM International Conference on Software Engineering  (**ICSE**): 2026, 2024, 2023 (SEET track) 2024 (Demo track)
-<br>
-- ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (**ESEC/FSE**): 2024 (poster track), 2023 (research track), 2022 (IVR track)
-<br>
+
+- IEEE/ACM International Conference on Software Engineering (**ICSE**): 2026, 2024, 2023 (SEET track) 2024 (Demo track)
+  <br>
+- ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (**ESEC/FSE**): 2026, 2023 (research track), 2024 (poster track), 2022 (IVR track)
+  <br>
 - IEEE/ACM International Conference on Automated Software Engineering (**ASE**): 2025 (SRC track)
-<br>
+  <br>
 - ACM International Symposium on Software Testing and Analysis (**ISSTA**): 2025, 2024, 2023 (research track)
-<br>
+  <br>
 - IEEE International Conference on Software Testing, Verification and Validation (**ICST**): 2025, 2024, 2023 (research track)
-<br>
+  <br>
 - International Symposium on Software Reliability Engineering (**ISSRE**): 2025, 2024, 2023, 2022, 2021 (research track)
-<br>
+  <br>
+- ACM/SIGSOFT Junior Awards Committee: 2025
+  <br>
 - ACM Conference on Computer-Supported Cooperative Work and Social Computing (**CSCW**): 2021 (research track)
-<br>
+  <br>
 - International Conference of Program Comprehension (**ICPC**): 2022 (research track), 2021 (ERA-track)
-<br>
-- International Conference on Software Maintenance and Evolution (**ICSME**): 2025 (research track) 2025, 2024, 2023, 2022 (Tool-demo track), 2023, 2022  (Doctoral symposium track)
-<br>
-- IEEE International Conference on Software Analysis, Evolution and Reengineering  (**SANER**): 2025 (research track)
-<br>
+  <br>
+- International Conference on Software Maintenance and Evolution (**ICSME**): 2025 (research track) 2025, 2024, 2023, 2022 (Tool-demo track), 2023, 2022 (Doctoral symposium track)
+  <br>
+- IEEE International Conference on Software Analysis, Evolution and Reengineering (**SANER**): 2025 (research track)
+  <br>
 - Asia-Pacific Software Engineering Conference (**ASPSEC**): 2025 (seip track), 2023 (education track)
-<br>
+  <br>
 - International Symposium on Search-Based Software Engineering (**SSBSE**): 2024, 2023, 2022 (research track)
-<br>
+  <br>
 - International Conference on Mobile Software Engineering and Systems (**MOBILESoft**): 2023 (NIER track), 2021, 2020 (research track)
-<br> 
+  <br>
 - IEEE International Conference on Source Code Analysis and Manipulation (**SCAM**): 2024 (research track)
-<br>
+  <br>
 - International Conference on Software Quality, Reliability, and Security (**QRS**): 2021 (research track)
-<br>
+  <br>
 - International Conference on Testing Software and Systems (**ICTSS**): 2025 (research track)
-<br>
+  <br>
 - International Workshop on Metamorphic Testing (**MET**): 2024, 2023 (research track)
-<br>
+  <br>
 - International Workshop on ML Techniques for Software Quality Evolution (**MaLTeSQuE**): 2022, 2021, 2020 (research track)
-<br>
-- Intenational Workshop on Artificial Intelligence in Software Testing  (**AIST**): 2025, 2024 (research track)
-<br>
+  <br>
+- Intenational Workshop on Artificial Intelligence in Software Testing (**AIST**): 2025, 2024 (research track)
+  <br>
 - International Workshop on Testing, Analysis, and Verification of Cyber-Physical Systems and Internet of Things (**TAV-CPS/IoT**): 2020, 2019, 2018 (research track)
-<br> 
-<br>
+  <br>
+  <br>
 
 **Organizer and Program Chair**
 <br>
+
 - International Workshop on Test Oracles (**TORACLE**): 2021 [https://toracle2021.github.io/](https://toracle2021.github.io/)(organizer, chair, and program co-chair)
-<br> 
+  <br>
 - International Symposium on Software Reliability Engineering (**ISSRE**): 2023 (program co-chair - Artifact Evaluation track)
-<br>
+  <br>
 - International Conference on Mobile Software Engineering and Systems (**MOBILESoft**): 2022 (virtualization chair), 2021 (program co-chair - Tool Demos and Visions track)
-<br> 
+  <br>
 - International Workshop on Search-Based and Fuzz Testing (**SBFT**): 2024, 2023 [https://sbft23.github.io/](https://sbft23.github.io/) (tool competition co-chair)
-<br>
-<br>
-**Reviewer**
+  <br>
+  <br>
+  **Reviewer**
 
 - IEEE Transactions on Software Engineering (**TSE**)
-<br>
-- Transactions on Software Engineering and Methodology (**TOSEM**)
-<br>
+  <br>
+- ACM Transactions on Software Engineering and Methodology (**TOSEM**)
+  <br>
 - Information and Software Technology (**IST**)
-<br>
+  <br>
 - Journal of Systems & Software (**JSS**)
-<br>
+  <br>
 - Software Testing, Verification and Reliability (**STVR**)
-<br>
+  <br>
 - Journal of Software: Evolution and Process (**JSEP**)
-<br>
+  <br>
 - Journal of Computer Science and Technology (**JCST**)
-<br>
+  <br>
 - Swarm and Evolutionary Computation
-<br>
+  <br>
+- IEEE Transaction on Education (**ToE**)
+  <b>
 - IEEE Access Journal
-<br>
+  <br>
 - Software Quality Journal (**SQJO**)
-<br>
-<br>
+  <br>
+  <br>
 
 **Honors and Awards**
 
-- 2025 Best paper award (ICST 2025 - education track)
+- 2025 Best paper award - education track (ICST 2025)
 - 2025 IEEE Distinguished Reviewer Award (ICST 2025)
 - 2022 IEEE Distinguished Reviewer Award (ISSRE 2022)
-- 2021 Winner of a Facebook Research award (PI - 100,000 USD) 
+- 2022 Best Practitioner Paper Award (ACE 2022)
+- 2021 Winner of a Facebook Research award (PI - 100,000 USD)
 - 2021 (nomination) Best paper award GECCO 2021
 - 2020 (nomination) Best paper award EuroGP 2020
 - 2019 Winner of The Facebook Testing and Verification Research Award (coPi - 50,000 USD)
 - 2019 IEEE TCSE Distinguished Paper Award (ICST 2019)
-- 2016 Invited attendee at the Microsoft Research Asia PhD Forum 
-- 2016 SIGSOFT CAPS Travel Grant (1,000 USD) 
-
-
-
+- 2016 Invited attendee at the Microsoft Research Asia PhD Forum
+- 2016 SIGSOFT CAPS Travel Grant (1,000 USD)
