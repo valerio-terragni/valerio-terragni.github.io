@@ -12,7 +12,7 @@ Since 2021, I have served on **52** program committees for top software engineer
 
 - IEEE/ACM International Conference on Software Engineering (**ICSE**): 2026, 2024, 2023 (SEET track) 2024 (Demo track)
   <br>
-- ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (**ESEC/FSE**): 2026, 2023 (research track), 2024 (poster track), 2022 (IVR track)
+- ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (**ESEC/FSE**): 2026, 2023 (research track), 2026 (education track), 2024 (poster track), 2022 (IVR track)
   <br>
 - IEEE/ACM International Conference on Automated Software Engineering (**ASE**): 2025 (SRC track)
   <br>
@@ -22,7 +22,7 @@ Since 2021, I have served on **52** program committees for top software engineer
   <br>
 - International Symposium on Software Reliability Engineering (**ISSRE**): 2025, 2024, 2023, 2022, 2021 (research track)
   <br>
-- ACM/SIGSOFT Junior Awards Committee: 2025
+- ACM/SIGSOFT Junior Awards Committee: 2026, 2025
   <br>
 - ACM Conference on Computer-Supported Cooperative Work and Social Computing (**CSCW**): 2021 (research track)
   <br>
@@ -30,7 +30,7 @@ Since 2021, I have served on **52** program committees for top software engineer
   <br>
 - International Conference on Software Maintenance and Evolution (**ICSME**): 2025 (research track) 2025, 2024, 2023, 2022 (Tool-demo track), 2023, 2022 (Doctoral symposium track)
   <br>
-- IEEE International Conference on Software Analysis, Evolution and Reengineering (**SANER**): 2025 (research track)
+- IEEE International Conference on Software Analysis, Evolution and Reengineering (**SANER**): 2026, 2025 (research track)
   <br>
 - Asia-Pacific Software Engineering Conference (**ASPSEC**): 2025 (seip track), 2023 (education track)
   <br>
