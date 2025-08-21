@@ -15,7 +15,10 @@ pdf = {terragni-tosem-2025.pdf}
   title={MDPMORPH: An MDP-Based Metamorphic Testing Framework for Deep Reinforcement Learning Agents},
   author={Li, Jiapeng and Zheng, Zheng and Xing, Yuning and Ren, Daixu and Cho, Steven and Terragni, Valerio},
   booktitle={Proceedings of the 36th IEEE International Symposium on Software Reliability Engineering},
+  abstract = {Deep Reinforcement Learning (DRL) systems are widely used across various domains. However, testing these systems presents significant challenges. The DRL agent, which serves as the core decision-maker, generates continuous value estimates rather than discrete labels and operates under non- stationary policies within complex and stochastic environments. Consequently, there is no definitive “correct answer” for each state-action pair, complicating automated test generation due to the known oracle problem. To address this challenge, we propose a Metamorphic Testing (MT) framework (MDPMORPH) specifically designed for validating DRL agents. Our framework is based on Markov Decision Processes (MDP) and focuses on the core reasoning properties of agents to automatically uncover potential faults. To support MDPMORPH, we introduce a Metamorphic Relation (MR) design methodology tailored for DRL agents, based on the temporal characteristics of MDP. Using this method, we define nine generic MRs that encapsulate common and expected properties of an agent’s reasoning process. Furthermore, based on established assumptions and definitions within the context of MDPs, we theoretically demonstrate the soundness of these MRs. Finally, we specialize these generic MRs into environment-specific MRs by determining appropriate thresholds through training on three classic DRL environments. Our experimental results demonstrate that MDPMORPH and the proposed MRs are highly effective in automatically detecting mutants within these studied environments, with a 0.84 average mutation detection rate.},
   year={2025},
+  code = {https://github.com/tissten/MDPMorph},
+  pdf = {li-issre-2025.pdf},
   series = {ISSRE 2025},
 }
 
@@ -116,7 +119,9 @@ pdf = {terragni-tosem-2025.pdf}
   pdf ={dietrich-icst-2025.pdf},
   pages = {592-596},
   year      = {2025},
+  code = {https://zenodo.org/records/14252188},
   publisher = {IEEE},
+  doi = {10.1109/ICST62969.2025.10989044},
   abstract = {Recent concerns about software supply chain security
 have led to the emergence of different binaries built from the
 same source code. This will sometimes result in binaries that are
