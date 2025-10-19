@@ -16,7 +16,7 @@ years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015]
 <img border="0" src="https://study-eu.s3.amazonaws.com/uploads/university/usi-universit--della-svizzera-italiana-logo.png" height="80">
 {% endif %}
 {% if y == 2025 %}
-<img border="0" src="../assets/img/logo-old.png" >
+<img border="0" src="../assets/img/uoa-logo.png" >
 {% endif %}
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}

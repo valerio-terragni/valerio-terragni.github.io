@@ -7,7 +7,7 @@ description: Senior Lecturer at The University of Auckland,  New Zealand. ✉️
 profile:
   align: right
   image: prof_pic.jpg
-  address: <img border="0" src="assets/img/logo-old.png">
+  address: <img border="0" src="assets/img/uoa-logo.png">
 
 social: true
 ---
