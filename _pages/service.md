@@ -5,6 +5,22 @@ permalink: /service/
 description: Professional Service and Awards.
 ---
 
+**Honors and Awards**
+- 2025 University of Auckland Early-Career Excellence Award
+- 2025 Faculty of Engineering and Design Early-Career Excellence Award
+- 2025 Best paper award - education track (ICST 2025)
+- 2025 IEEE Distinguished Reviewer Award (ICST 2025)
+- 2022 IEEE Distinguished Reviewer Award (ISSRE 2022)
+- 2022 Best Practitioner Paper Award (ACE 2022)
+- 2021 Winner of a Facebook Research award (PI - 100,000 USD)
+- 2021 (nomination) Best paper award GECCO 2021
+- 2020 (nomination) Best paper award EuroGP 2020
+- 2019 Winner of The Facebook Testing and Verification Research Award (coPi - 50,000 USD)
+- 2019 IEEE TCSE Distinguished Paper Award (ICST 2019)
+- 2016 Invited attendee at the Microsoft Research Asia PhD Forum
+- 2016 SIGSOFT CAPS Travel Grant (1,000 USD)
+
+
 **Conference Program Committees**
 
 Since 2021, I have served on **52** program committees for top software engineering conferences.
@@ -66,7 +82,8 @@ Since 2021, I have served on **52** program committees for top software engineer
 - International Workshop on Search-Based and Fuzz Testing (**SBFT**): 2024, 2023 [https://sbft23.github.io/](https://sbft23.github.io/) (tool competition co-chair)
   <br>
   <br>
-  **Reviewer**
+
+**Reviewer**
 
 - IEEE Transactions on Software Engineering (**TSE**)
   <br>
@@ -92,16 +109,3 @@ Since 2021, I have served on **52** program committees for top software engineer
   <br>
   <br>
 
-**Honors and Awards**
-
-- 2025 Best paper award - education track (ICST 2025)
-- 2025 IEEE Distinguished Reviewer Award (ICST 2025)
-- 2022 IEEE Distinguished Reviewer Award (ISSRE 2022)
-- 2022 Best Practitioner Paper Award (ACE 2022)
-- 2021 Winner of a Facebook Research award (PI - 100,000 USD)
-- 2021 (nomination) Best paper award GECCO 2021
-- 2020 (nomination) Best paper award EuroGP 2020
-- 2019 Winner of The Facebook Testing and Verification Research Award (coPi - 50,000 USD)
-- 2019 IEEE TCSE Distinguished Paper Award (ICST 2019)
-- 2016 Invited attendee at the Microsoft Research Asia PhD Forum
-- 2016 SIGSOFT CAPS Travel Grant (1,000 USD)
