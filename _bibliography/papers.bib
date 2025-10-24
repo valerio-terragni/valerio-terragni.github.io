@@ -11,7 +11,38 @@ series = {ACM TOSEM},
 pdf = {terragni-tosem-2025.pdf}
 }
 
+@article{tung-trust-fse2025,
+  author    = {Lam Nguyen Tung and Steven Cho and Xiaoning Du and Neelofar Neelofar and Valerio Terragni and Stefano Ruberto and Aldeida Aleti},
+  title     = {Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers},
+  journal   = {Proceedings of the ACM on Software Engineering},
+  volume    = {2},
+  number    = {FSE}, 
+  year      = {2025},
+  articleno = {FSE106},
+  doi = {10.1145/3729376},
+  abstract  = {Machine learning (ML) for text classification has been widely used in various domains, such as toxicity detection, chatbot consulting, and review analysis. These applications can significantly impact ethics, economics, and human behavior, raising serious concerns about trusting ML decisions. Several studies indicate that traditional uncertainty metrics, such as model confidence, and performance metrics, like accuracy, are insufficient to build human trust in ML models. These models often learn spurious correlations during training and predict based on them during inference. When deployed in the real world, where such correlations are absent, their performance can deteriorate significantly. To avoid this, a common practice is to test whether predictions are made reasonably based on valid patterns in the data, Along with this, a challenge known as the trustworthiness oracle problem has been introduced. So far, due to the lack of automated trustworthiness oracles, the assessment requires manual validation, based on the decision process disclosed by explanation methods. However, this approach is time-consuming, error-prone, and not scalable. To address this problem, we propose TOKI, the first automated trustworthiness oracle generation method for text classifiers. TOKI automatically checks whether the words contributing the most to a prediction are semantically related to the predicted class. Specifically, we leverage ML explanation methods to extract the decision-contributing words and measure their semantic relatedness with the class based on word embeddings. As a demonstration of its practical usefulness, we also introduce a novel adversarial attack method that targets trustworthiness vulnerabilities identified by TOKI. We compare TOKI with a naive baseline based solely on model confidence. To evaluate their alignment with human judgement, experiments are conducted on human-created ground truths of approximately 6,000 predictions. Additionally, we compare the effectiveness of TOKI-guided adversarial attack method with A2T, a state-of-the-art adversarial attack method for text classification. Results show that (1) relying on prediction uncertainty metrics, such as model confidence, cannot effectively distinguish between trustworthy and untrustworthy predictions, (2) TOKI achieves 142% higher accuracy than the naive baseline, and (3) TOKI-guided adversarial attack method is more effective with fewer perturbations than A2T.},
+  pdf       = {tung-fse-2025.pdf},
+  series    = {FSE 2025}
+}
 
+@article{Zhu2025MockAssertions,
+  author    = {Zhu, Hengcheng and 
+               Terragni, Valerio and 
+               Wei, Lili and 
+               Cheung, Shing-Chi and 
+               Wu, Jiarong and 
+               Liu, Yepang},
+  title     = {Understanding and Characterizing Mock Assertions in Unit Tests},
+  journal   = {Proceedings of the ACM on Software Engineering},
+  volume    = {2},
+  number    = {FSE},
+  articleno = {FSE026},
+  year      = {2025},
+  doi  = {10.1145/3715741},
+  abstract = {Mock assertions provide developers with a powerful means to validate program behaviors that are unobservable to test assertions. Despite their significance, they are rarely considered by automated test generation techniques. Effective generation of mock assertions requires understanding how they are used in practice. Although previous studies highlighted the importance of mock assertions, none provide insight into their usages. To bridge this gap, we conducted the first empirical study on mock assertions, examining their adoption, the characteristics of the verified method invocations, and their effectiveness in fault detection. Our analysis of 4,652 test cases from 11 popular Java projects reveals that mock assertions are mostly applied to validating specific kinds of method calls, such as those interacting with external resources and those reflecting whether a certain code path was traversed in systems under test. Additionally, we find that mock assertions complement traditional test assertions by ensuring the desired side effects have been produced, validating control flow logic, and checking internal computation results. Our findings contribute to a better understanding of mock assertion usages and provide a foundation for future related research such as automated test generation that support mock assertions.},
+  pdf = {zhu-fse-2025.pdf},
+  series = {FSE 2025}
+}
 
 @inproceedings{cho2025llmorph,
   author    = {Steven Cho and Stefano Ruberto and Valerio Terragni},
@@ -51,6 +82,28 @@ pdf = {terragni-tosem-2025.pdf}
   series = {AIware 2025},
   pdf = {bodicoat-aiware-2025.pdf},
   year      = {2025},
+}
+
+
+
+
+@article{jayasuriya2025emse,
+  author       = {Dhanushka Jayasuriya and
+                  Samuel Ou and
+                  Saakshi Hegde and
+                  Valerio Terragni and
+                  Jens Dietrich and
+                  Kelly Blincoe},
+  title        = {An extended study of syntactic breaking changes in the wild},
+  journal      = {Empirical Software Engineering},
+    series          = {Springer ESE},
+  volume       = {30},
+  number       = {2},
+  pages        = {42},
+  year         = {2025},
+  doi          = {10.1007/S10664-024-10563-4},
+  abstract = {Libraries assist in accelerating the development of software applications by providing reusable functionalities. Libraries and applications that declare these libraries as dependencies become their clients. However, as libraries evolve, maintaining the dependencies in client projects can be challenging if the new version contains breaking changes. Yet, limited research focuses on analyzing the impact of breaking changes on client projects when updating dependencies in the wild. Hence, we conduct an empirical analysis using Java projects built using Maven to investigate the impact of breaking changes introduced between two library versions. Our dataset included 18,415 Maven artifacts, declaring 142,355 direct dependencies, out of which 71.60\% were not up-to-date. We automatically updated these dependencies and discovered that 11.58\% of the dependency updates resulted in breaking changes that affected the client, and almost half of them were introduced during a non-major update. We analyzed the changes in the libraries that contributed towards these breaking changes, and our results indicate that changes in transitive dependencies were a significant factor in introducing breaking changes. We further investigated if it was common for clients to use functionalities of transitive dependencies directly without declaring them. This showed that over half of the clients use transitive functionality. Therefore, we analyzed actions suggested to resolve these breaking changes introduced by transitive dependencies under the discussions on open-source platforms, and the frequently suggested action was to exclude the transitive dependency from the project configuration.},
+  pdf = {jayasuriya-ese-2025.pdf}
 }
 
 
@@ -103,38 +156,7 @@ pdf = {terragni-tosem-2025.pdf}
   pdf = {ravi-icsme-2025.pdf},
 }
 
-@article{tung-trust-fse2025,
-  author    = {Lam Nguyen Tung and Steven Cho and Xiaoning Du and Neelofar Neelofar and Valerio Terragni and Stefano Ruberto and Aldeida Aleti},
-  title     = {Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers},
-  journal   = {Proceedings of the ACM on Software Engineering},
-  volume    = {2},
-  number    = {FSE}, 
-  year      = {2025},
-  articleno = {FSE106},
-  doi = {10.1145/3729376},
-  abstract  = {Machine learning (ML) for text classification has been widely used in various domains, such as toxicity detection, chatbot consulting, and review analysis. These applications can significantly impact ethics, economics, and human behavior, raising serious concerns about trusting ML decisions. Several studies indicate that traditional uncertainty metrics, such as model confidence, and performance metrics, like accuracy, are insufficient to build human trust in ML models. These models often learn spurious correlations during training and predict based on them during inference. When deployed in the real world, where such correlations are absent, their performance can deteriorate significantly. To avoid this, a common practice is to test whether predictions are made reasonably based on valid patterns in the data, Along with this, a challenge known as the trustworthiness oracle problem has been introduced. So far, due to the lack of automated trustworthiness oracles, the assessment requires manual validation, based on the decision process disclosed by explanation methods. However, this approach is time-consuming, error-prone, and not scalable. To address this problem, we propose TOKI, the first automated trustworthiness oracle generation method for text classifiers. TOKI automatically checks whether the words contributing the most to a prediction are semantically related to the predicted class. Specifically, we leverage ML explanation methods to extract the decision-contributing words and measure their semantic relatedness with the class based on word embeddings. As a demonstration of its practical usefulness, we also introduce a novel adversarial attack method that targets trustworthiness vulnerabilities identified by TOKI. We compare TOKI with a naive baseline based solely on model confidence. To evaluate their alignment with human judgement, experiments are conducted on human-created ground truths of approximately 6,000 predictions. Additionally, we compare the effectiveness of TOKI-guided adversarial attack method with A2T, a state-of-the-art adversarial attack method for text classification. Results show that (1) relying on prediction uncertainty metrics, such as model confidence, cannot effectively distinguish between trustworthy and untrustworthy predictions, (2) TOKI achieves 142% higher accuracy than the naive baseline, and (3) TOKI-guided adversarial attack method is more effective with fewer perturbations than A2T.},
-  pdf       = {tung-fse-2025.pdf},
-  series    = {FSE 2025}
-}
 
-@article{Zhu2025MockAssertions,
-  author    = {Zhu, Hengcheng and 
-               Terragni, Valerio and 
-               Wei, Lili and 
-               Cheung, Shing-Chi and 
-               Wu, Jiarong and 
-               Liu, Yepang},
-  title     = {Understanding and Characterizing Mock Assertions in Unit Tests},
-  journal   = {Proceedings of the ACM on Software Engineering},
-  volume    = {2},
-  number    = {FSE},
-  articleno = {FSE026},
-  year      = {2025},
-  doi  = {10.1145/3715741},
-  abstract = {Mock assertions provide developers with a powerful means to validate program behaviors that are unobservable to test assertions. Despite their significance, they are rarely considered by automated test generation techniques. Effective generation of mock assertions requires understanding how they are used in practice. Although previous studies highlighted the importance of mock assertions, none provide insight into their usages. To bridge this gap, we conducted the first empirical study on mock assertions, examining their adoption, the characteristics of the verified method invocations, and their effectiveness in fault detection. Our analysis of 4,652 test cases from 11 popular Java projects reveals that mock assertions are mostly applied to validating specific kinds of method calls, such as those interacting with external resources and those reflecting whether a certain code path was traversed in systems under test. Additionally, we find that mock assertions complement traditional test assertions by ensuring the desired side effects have been produced, validating control flow logic, and checking internal computation results. Our findings contribute to a better understanding of mock assertion usages and provide a foundation for future related research such as automated test generation that support mock assertions.},
-  pdf = {zhu-fse-2025.pdf},
-  series = {FSE 2025}
-}
 
 @inproceedings{Ruberto2025FromImplemented,
   author    = {Ruberto, Stefano and 
@@ -271,27 +293,6 @@ doi = {10.1109/ICST62969.2025.10989027},
 
 
 
-
-
-
-@article{jayasuriya2025emse,
-  author       = {Dhanushka Jayasuriya and
-                  Samuel Ou and
-                  Saakshi Hegde and
-                  Valerio Terragni and
-                  Jens Dietrich and
-                  Kelly Blincoe},
-  title        = {An extended study of syntactic breaking changes in the wild},
-  journal      = {Empirical Software Engineering},
-    series          = {Springer ESE},
-  volume       = {30},
-  number       = {2},
-  pages        = {42},
-  year         = {2025},
-  doi          = {10.1007/S10664-024-10563-4},
-  abstract = {Libraries assist in accelerating the development of software applications by providing reusable functionalities. Libraries and applications that declare these libraries as dependencies become their clients. However, as libraries evolve, maintaining the dependencies in client projects can be challenging if the new version contains breaking changes. Yet, limited research focuses on analyzing the impact of breaking changes on client projects when updating dependencies in the wild. Hence, we conduct an empirical analysis using Java projects built using Maven to investigate the impact of breaking changes introduced between two library versions. Our dataset included 18,415 Maven artifacts, declaring 142,355 direct dependencies, out of which 71.60\% were not up-to-date. We automatically updated these dependencies and discovered that 11.58\% of the dependency updates resulted in breaking changes that affected the client, and almost half of them were introduced during a non-major update. We analyzed the changes in the libraries that contributed towards these breaking changes, and our results indicate that changes in transitive dependencies were a significant factor in introducing breaking changes. We further investigated if it was common for clients to use functionalities of transitive dependencies directly without declaring them. This showed that over half of the clients use transitive functionality. Therefore, we analyzed actions suggested to resolve these breaking changes introduced by transitive dependencies under the discussions on open-source platforms, and the frequently suggested action was to exclude the transitive dependency from the project configuration.},
-  pdf = {jayasuriya-ese-2025.pdf}
-}
 
 @article{giacamanLLM2025,
 author = {Giacaman, Nasser and Terragni, Valerio},
