@@ -23,7 +23,7 @@ description: Professional Service and Awards.
 
 **Conference Program Committees**
 
-Since 2021, I have served on **52** program committees for top software engineering conferences.
+Since 2021, I have served on **56** program committees for top software engineering conferences.
 <br>
 
 - IEEE/ACM International Conference on Software Engineering (**ICSE**): 2026, 2024, 2023 (SEET track) 2024 (Demo track)
@@ -44,10 +44,14 @@ Since 2021, I have served on **52** program committees for top software engineer
   <br>
 - International Conference of Program Comprehension (**ICPC**): 2022 (research track), 2021 (ERA-track)
   <br>
-- International Conference on Software Maintenance and Evolution (**ICSME**): 2025 (research track) 2025, 2024, 2023, 2022 (Tool-demo track), 2023, 2022 (Doctoral symposium track)
+- International Conference on Software Maintenance and Evolution (**ICSME**): 2025 (research track) 2026, 2025, 2024, 2023, 2022 (Tool-demo track), 2023, 2022 (Doctoral symposium track)
   <br>
+- ACM/IEEE International Conference on Automation of Software Test (**AST**): 2026 (research track)
+ <br>
 - IEEE International Conference on Software Analysis, Evolution and Reengineering (**SANER**): 2026, 2025 (research track)
   <br>
+- International Conference on Evaluation and Assessment in Software Engineering (**EASE**): 2026 (research track)
+<br>
 - Asia-Pacific Software Engineering Conference (**ASPSEC**): 2025 (seip track), 2023 (education track)
   <br>
 - International Symposium on Search-Based Software Engineering (**SSBSE**): 2024, 2023, 2022 (research track)
@@ -61,6 +65,8 @@ Since 2021, I have served on **52** program committees for top software engineer
 - International Conference on Testing Software and Systems (**ICTSS**): 2025 (research track)
   <br>
 - International Workshop on Metamorphic Testing (**MET**): 2024, 2023 (research track)
+  <br>
+- International Workshop on Search-Based and Fuzz Testing (**SBFT**): 2026 (research track)
   <br>
 - International Workshop on ML Techniques for Software Quality Evolution (**MaLTeSQuE**): 2022, 2021, 2020 (research track)
   <br>
