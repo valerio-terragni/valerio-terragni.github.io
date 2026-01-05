@@ -23,7 +23,7 @@ description: Professional Service and Awards.
 
 **Conference Program Committees**
 
-Since 2021, I have served on **56** program committees for top software engineering conferences.
+Since 2021, I have served on **57** program committees for top software engineering conferences.
 <br>
 
 - IEEE/ACM International Conference on Software Engineering (**ICSE**): 2026, 2024, 2023 (SEET track) 2024 (Demo track)
@@ -64,7 +64,7 @@ Since 2021, I have served on **56** program committees for top software engineer
   <br>
 - International Conference on Testing Software and Systems (**ICTSS**): 2025 (research track)
   <br>
-- International Workshop on Metamorphic Testing (**MET**): 2024, 2023 (research track)
+- International Workshop on Metamorphic Testing (**MET**): 2026, 2024, 2023 (research track)
   <br>
 - International Workshop on Search-Based and Fuzz Testing (**SBFT**): 2026 (research track)
   <br>
