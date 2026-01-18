@@ -6,8 +6,8 @@ description: Professional Service and Awards.
 ---
 
 **Honors and Awards**
-- 2025 University of Auckland Early-Career Excellence Award
-- 2025 Faculty of Engineering and Design Early-Career Excellence Award
+- 2025 University of Auckland Early-Career Teaching Excellence Award
+- 2025 Faculty of Engineering and Design Early-Career Teaching Excellence Award
 - 2025 Best paper award - education track (ICST 2025)
 - 2025 IEEE Distinguished Reviewer Award (ICST 2025)
 - 2022 IEEE Distinguished Reviewer Award (ISSRE 2022)
