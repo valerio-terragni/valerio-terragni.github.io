@@ -54,7 +54,7 @@ Since 2021, I have served on **58** program committees for top software engineer
 <br>
 - Asia-Pacific Software Engineering Conference (**ASPSEC**): 2025 (seip track), 2023 (education track)
   <br>
-- International Symposium on Search-Based Software Engineering (**SSBSE**): 2024, 2023, 2022 (research track)
+- International Symposium on Search-Based Software Engineering (**SSBSE**): 2026, 2024, 2023, 2022 (research track)
   <br>
 - International Conference on Mobile Software Engineering and Systems (**MOBILESoft**): 2023 (NIER track), 2021, 2020 (research track)
   <br>
