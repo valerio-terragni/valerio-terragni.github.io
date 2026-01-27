@@ -30,7 +30,7 @@ Since 2021, I have served on **58** program committees for top software engineer
   <br>
 - ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (**ESEC/FSE**): 2026, 2023 (research track), 2026 (education track), 2024 (poster track), 2022 (IVR track)
   <br>
-- IEEE/ACM International Conference on Automated Software Engineering (**ASE**): 2025 (SRC track)
+- IEEE/ACM International Conference on Automated Software Engineering (**ASE**): 2026 (research track) 2025 (SRC track)
   <br>
 - ACM International Symposium on Software Testing and Analysis (**ISSTA**): 2025, 2024, 2023 (research track)
   <br>
