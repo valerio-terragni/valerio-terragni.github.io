@@ -26,7 +26,7 @@ description: Professional Service and Awards.
 Since 2021, I have served on **58** program committees for top software engineering conferences.
 <br>
 
-- IEEE/ACM International Conference on Software Engineering (**ICSE**): 2026, 2024, 2023 (SEET track) 2024 (Demo track)
+- IEEE/ACM International Conference on Software Engineering (**ICSE**): 2027 (research) 2026, 2024, 2023 (SEET track) 2024 (Demo track)
   <br>
 - ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (**ESEC/FSE**): 2026, 2023 (research track), 2026 (education track), 2024 (poster track), 2022 (IVR track)
   <br>
@@ -35,6 +35,10 @@ Since 2021, I have served on **58** program committees for top software engineer
 - ACM International Symposium on Software Testing and Analysis (**ISSTA**): 2025, 2024, 2023 (research track)
   <br>
 - IEEE International Conference on Software Testing, Verification and Validation (**ICST**): 2026, 2025, 2024, 2023 (research track)
+  <br>
+- ACM/IEEE International Conference on AI-powered Software (**AIWARE**): 2026 (research track)
+  <br>
+- International Conference on Evaluation and Assessment in Software Engineering (**EASE**): 2026 (research track)
   <br>
 - International Symposium on Software Reliability Engineering (**ISSRE**): 2025, 2024, 2023, 2022, 2021 (research track)
   <br>
@@ -70,7 +74,7 @@ Since 2021, I have served on **58** program committees for top software engineer
   <br>
 - International Workshop on ML Techniques for Software Quality Evolution (**MaLTeSQuE**): 2022, 2021, 2020 (research track)
   <br>
-- Intenational Workshop on Artificial Intelligence in Software Testing (**AIST**): 2025, 2024 (research track)
+- Intenational Workshop on Artificial Intelligence in Software Testing (**AIST**): 2026, 2025, 2024 (research track)
   <br>
 - International Workshop on Testing, Analysis, and Verification of Cyber-Physical Systems and Internet of Things (**TAV-CPS/IoT**): 2020, 2019, 2018 (research track)
   <br>
