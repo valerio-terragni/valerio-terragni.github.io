@@ -209,9 +209,11 @@
   author = {Terragni, Valerio and Vella, Annie and Roop, Partha and Blincoe, Kelly},
   title = {The Future of AI-Driven Software Engineering},
   year = {2025},
-  doi = {10.1145/3715003},
   journal = {ACM Trans. Softw. Eng. Methodol.},
-  month = jan
+  month = jan,
+  volume = {34},
+  number = {5},
+  doi = {10.1145/3715003}
 }
 </p>
   </span>
@@ -523,8 +525,9 @@
 <div id="cho2025llmorph">
   
       
-    <span class="title">LLMORPH: Automated Metamorphic Testing of Large Language Models</span>
-    
+        <span class="title">                <a href="http://www.doi.org/10.1109/ASE63991.2025.00385" target="_blank">LLMORPH: Automated Metamorphic Testing of Large Language Models</a> 
+</span>
+  
     <span class="author">
       
         
@@ -572,6 +575,8 @@
     
 
     
+    <em>, pages 4102–4105</em>
+    
     
     <em>, 2025</em>
     
@@ -582,6 +587,8 @@
 
   <span class="links">
     [<a class="bibtex">BIBTEX</a>]
+  
+    [<a class="abstract">Abstract</a>]
   
   
   
@@ -598,9 +605,15 @@
     [<a href="https://github.com/steven-b-cho/llmorph" target="_blank">Tool/Data</a>]
   
       
+    [<a href="http://www.doi.org/10.1109/ASE63991.2025.00385" target="_blank">DOI</a>]
+  
   </span>
 
   <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>Automated testing is essential for evaluating and improving the reliability of Large Language Models (LLMs), yet the lack of automated oracles for verifying output correctness remains a key challenge. We present LLMorph, an automated testing tool specifically designed for LLMs performing NLP tasks, which leverages Metamorphic Testing (MT) to uncover faulty behaviors without relying on human-labeled data. MT uses Metamorphic Relations (MRs) to generate follow-up inputs from source test input, enabling detection of inconsistencies in model outputs without the need of expensive labelled data. LLMorph is aimed at researchers and developers who want to evaluate the robustness of LLM-based NLP systems. In this paper, we detail the design, implementation, and practical usage of LLMorph, demonstrating how it can be easily extended to any LLM, NLP task, and set of MRs. In our evaluation, we applied 36 MRs across four NLP benchmarks, testing three state-of-the-art LLMs: GPT-4, LLAMA3, and HERMES 2. This produced over 561,000 test executions. The results demonstrate LLMorph’s effectiveness in automatically exposing incorrect model behaviors at scale.The tool source code is available at https://github.com/steven-b-cho/llmorph. A screencast demo is available at https://youtu.be/sHmqdieCfw4.</p>
+  </span>
   
   <span class="bibtex hidden2">
     <p>@inproceedings{cho2025llmorph,
@@ -608,7 +621,9 @@
   title = {{LLMORPH}: Automated Metamorphic Testing of Large Language Models},
   booktitle = {Proceedings of the 40th IEEE/ACM International Conference on Automated Software Engineering},
   year = {2025},
-  data = {doi.org/10.5281/zenodo.17052142}
+  data = {doi.org/10.5281/zenodo.17052142},
+  doi = {10.1109/ASE63991.2025.00385},
+  pages = {4102–4105}
 }
 </p>
   </span>
@@ -622,8 +637,9 @@
 <div id="zhu2025lspfuzz">
   
       
-    <span class="title">LSPFUZZ: Hunting Bugs in Language Servers</span>
-    
+        <span class="title">                <a href="http://www.doi.org/10.1109/ASE63991.2025.00183" target="_blank">LSPFUZZ: Hunting Bugs in Language Servers</a> 
+</span>
+  
     <span class="author">
       
         
@@ -730,6 +746,8 @@
   <span class="links">
     [<a class="bibtex">BIBTEX</a>]
   
+    [<a class="abstract">Abstract</a>]
+  
   
   
   
@@ -743,15 +761,22 @@
       
   
       
+    [<a href="http://www.doi.org/10.1109/ASE63991.2025.00183" target="_blank">DOI</a>]
+  
   </span>
 
   <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>The Language Server Protocol (LSP) has revolutionized the integration of code intelligence in modern software development. There are approximately 300 LSP server implementations for various languages and 50 editors offering LSP integration. However, the reliability of LSP servers is a growing concern, as crashes can disable all code intelligence features and significantly impact productivity, while vulnerabilities can put developers at risk even when editing untrusted source code. Despite the widespread adoption of LSP, no existing techniques specifically target LSP server testing. To bridge this gap, we present LspFuzz, a grey-box hybrid fuzzer for systematic LSP server testing. Our key insight is that effective LSP server testing requires holistic mutation of source code and editor operations, as bugs often manifest from their combinations. To satisfy the sophisticated constraints of LSP and effectively explore the input space, we employ a two-stage mutation pipeline: syntax-aware mutations to source code, followed by context-aware dispatching of editor operations. We evaluated LspFuzz on four widely used LSP servers. LspFuzz demonstrated superior performance compared to baseline fuzzers, and uncovered previously unknown bugs in real-world LSP servers. Of the 51 bugs we reported, 42 have been confirmed, 26 have been fixed by developers, and two have been assigned CVE numbers. Our work advances the quality assurance of LSP servers, providing both a practical tool and foundational insights for future research in this domain.</p>
+  </span>
   
   <span class="bibtex hidden2">
     <p>@inproceedings{zhu2025lspfuzz,
   author = {Zhu, Hengcheng and Chen, Songqiang and Terragni, Valerio and Wei, Lili and Liu, Yepang and Wu, Jiarong and Cheung, Shing{-}Chi},
   title = {{LSPFUZZ}: Hunting Bugs in Language Servers},
   booktitle = {Proceedings of the 40th IEEE/ACM International Conference on Automated Software Engineering},
+  doi = {10.1109/ASE63991.2025.00183},
   year = {2025}
 }
 </p>
@@ -766,8 +791,9 @@
 <div id="li2025mdpmorph">
   
       
-    <span class="title">Metamorphic Testing of Deep Reinforcement Learning Agents with MDPMORPH</span>
-    
+        <span class="title">                <a href="http://www.doi.org/10.1109/ASE63991.2025.00381" target="_blank">Metamorphic Testing of Deep Reinforcement Learning Agents with MDPMORPH</a> 
+</span>
+  
     <span class="author">
       
         
@@ -851,6 +877,8 @@
     
 
     
+    <em>, pages 4086-4089</em>
+    
     
     <em>, 2025</em>
     
@@ -861,6 +889,8 @@
 
   <span class="links">
     [<a class="bibtex">BIBTEX</a>]
+  
+    [<a class="abstract">Abstract</a>]
   
   
   
@@ -877,16 +907,24 @@
     [<a href="https://github.com/tissten/MDPMorph" target="_blank">Tool/Data</a>]
   
       
+    [<a href="http://www.doi.org/10.1109/ASE63991.2025.00381" target="_blank">DOI</a>]
+  
   </span>
 
   <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>We present MDPMorph, a tool for metamorphic testing of Deep Reinforcement Learning (DRL) agents. MDPMorph is based on the Markov Decision Process (MDP) and targets the core reasoning properties of DRL agents to automatically uncover potential faults. It can generate metamorphic test suites and corresponding mutants directly from the DRL system under test. MDPMorph uses a subset of the metamorphic test suite and models to train the thresholds of the nine proposed Metamorphic Relations (MRs) using stochastic gradient descent. These MRs are based on the temporal characteristics of the MDP, and the training aims to determine the optimal threshold for each MR. After obtaining the optimal threshold, MDPMorph leverages the MRs to compare the execution results of different metamorphic test suites on the model under test and reports whether each test passes or fails. Finally, by collecting the execution results, MDPMorph calculates the mutant detection rate of MR to validate its effectiveness. Experimental results show that MDPMorph and the proposed MRs are highly effective in automatically detecting seeded faults (mutants).</p>
+  </span>
   
   <span class="bibtex hidden2">
     <p>@inproceedings{li2025mdpmorph,
   author = {Li, Jiapeng and Zheng, Zheng and Xing, Yuning and Ren, Daixu and Cho, Steven and Terragni, Valerio},
   title = {Metamorphic Testing of Deep Reinforcement Learning Agents with {MDPMORPH}},
   booktitle = {Proceedings of the 40th IEEE/ACM International Conference on Automated Software Engineering},
-  year = {2025}
+  year = {2025},
+  pages = {4086-4089},
+  doi = {10.1109/ASE63991.2025.00381}
 }
 </p>
   </span>
@@ -900,8 +938,9 @@
 <div id="bodicoat2025understanding">
   
       
-    <span class="title">Understanding LLM‐Driven Test Oracle Generation</span>
-    
+        <span class="title">                <a href="http://www.doi.org/10.1109/AIWARE69974.2025.00011" target="_blank">Understanding LLM‐Driven Test Oracle Generation</a> 
+</span>
+  
     <span class="author">
       
         
@@ -944,10 +983,12 @@
     <span class="periodical">
     
           
-            <em>In Proceedings of the ACM International Conference on AI-powered Software</em>
-
+      <em>In Proceedings of the 2nd IEEE/ACM International Conference on AI-powered Software</em>
+    
     
 
+    
+    <em>, pages 29–39</em>
     
     
     <em>, 2025</em>
@@ -959,6 +1000,8 @@
 
   <span class="links">
     [<a class="bibtex">BIBTEX</a>]
+  
+    [<a class="abstract">Abstract</a>]
   
   
   
@@ -973,15 +1016,24 @@
       
   
       
+    [<a href="http://www.doi.org/10.1109/AIWARE69974.2025.00011" target="_blank">DOI</a>]
+  
   </span>
 
   <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>Automated unit test generation aims to improve software quality while reducing the time and effort required for creating tests manually. However, existing techniques primarily generate regression oracles that predicate on the implemented behavior of the class under test. They do not address the oracle problem: the challenge of distinguishing correct from incorrect program behavior. With the rise of Foundation Models (FMs), particularly Large Language Models (LLMs), there is a new opportunity to generate test oracles that reflect intended behavior. This positions LLMs as enablers of Promptware, where software creation and testing are driven by natural-language prompts. This paper presents an empirical study on the effectiveness of LLMs in generating test oracles that expose software failures. We investigate how different prompting strategies and levels of contextual input impact the quality of LLM-generated oracles. Our findings offer insights into the strengths and limitations of LLM-based oracle generation in the FM era, improving our understanding of their capabilities and fostering future research in this area.</p>
+  </span>
   
   <span class="bibtex hidden2">
     <p>@inproceedings{bodicoat2025understanding,
   author = {Bodicoat, Adam and Jahangirova, Gunel and Terragni, Valerio},
   title = {Understanding LLM‐Driven Test Oracle Generation},
-  booktitle = {Proceedings of the ACM International Conference on AI-powered Software},
+  booktitle = {2nd {IEEE/ACM} International Conference on AI-powered Software},
+  pages = {29--39},
+  publisher = {IEEE},
+  doi = {10.1109/AIWARE69974.2025.00011},
   year = {2025}
 }
 </p>
@@ -1141,8 +1193,9 @@
 <div id="li2025mdpmorpi">
   
       
-    <span class="title">MDPMORPH: An MDP-Based Metamorphic Testing Framework for Deep Reinforcement Learning Agents</span>
-    
+        <span class="title">                <a href="http://www.doi.org/10.1109/ISSRE66568.2025.00028" target="_blank">MDPMORPH: An MDP-Based Metamorphic Testing Framework for Deep Reinforcement Learning Agents</a> 
+</span>
+  
     <span class="author">
       
         
@@ -1226,6 +1279,8 @@
     
 
     
+    <em>, pages 154-166</em>
+    
     
     <em>, 2025</em>
     
@@ -1254,6 +1309,8 @@
     [<a href="https://github.com/tissten/MDPMorph" target="_blank">Tool/Data</a>]
   
       
+    [<a href="http://www.doi.org/10.1109/ISSRE66568.2025.00028" target="_blank">DOI</a>]
+  
   </span>
 
   <!-- Hidden abstract block -->
@@ -1267,6 +1324,8 @@
   title = {MDPMORPH: An MDP-Based Metamorphic Testing Framework for Deep Reinforcement Learning Agents},
   author = {Li, Jiapeng and Zheng, Zheng and Xing, Yuning and Ren, Daixu and Cho, Steven and Terragni, Valerio},
   booktitle = {Proceedings of the 36th IEEE International Symposium on Software Reliability Engineering},
+  pages = {154-166},
+  doi = {10.1109/ISSRE66568.2025.00028},
   year = {2025}
 }
 </p>
@@ -1281,8 +1340,9 @@
 <div id="cho2025metamorphic">
   
       
-    <span class="title">Metamorphic Testing of Large Language Models for Natural Language Processing</span>
-    
+        <span class="title">                <a href="http://www.doi.org/10.1109/ICSME64153.2025.00025" target="_blank">Metamorphic Testing of Large Language Models for Natural Language Processing</a> 
+</span>
+  
     <span class="author">
       
         
@@ -1330,6 +1390,8 @@
     
 
     
+    <em>, pages 174–186</em>
+    
     
     <em>, 2025</em>
     
@@ -1358,6 +1420,8 @@
     [<a href="https://github.com/steven-b-cho/llmorph" target="_blank">Tool/Data</a>]
   
       
+    [<a href="http://www.doi.org/10.1109/ICSME64153.2025.00025" target="_blank">DOI</a>]
+  
   </span>
 
   <!-- Hidden abstract block -->
@@ -1372,7 +1436,9 @@
   title = {Metamorphic Testing of Large Language Models for Natural Language Processing},
   booktitle = {Proceedings of the 41st IEEE International Conference on Software Maintenance and Evolution (ICSME)},
   year = {2025},
-  publisher = {IEEE}
+  publisher = {IEEE},
+  pages = {174--186},
+  doi = {10.1109/ICSME64153.2025.00025}
 }
 </p>
   </span>
@@ -1386,8 +1452,9 @@
 <div id="kupari2025adoption">
   
       
-    <span class="title">Adoption and Evolution of Code Style and Best Programming Practices in Open-Source Projects</span>
-    
+        <span class="title">                <a href="http://www.doi.org/10.1109/ICSME64153.2025.00026" target="_blank">Adoption and Evolution of Code Style and Best Programming Practices in Open-Source Projects</a> 
+</span>
+  
     <span class="author">
       
         
@@ -1435,6 +1502,8 @@
     
 
     
+    <em>, pages 187–198</em>
+    
     
     <em>, 2025</em>
     
@@ -1463,6 +1532,8 @@
     [<a href="https://doi.org/10.5281/zenodo.16532529" target="_blank">Tool/Data</a>]
   
       
+    [<a href="http://www.doi.org/10.1109/ICSME64153.2025.00026" target="_blank">DOI</a>]
+  
   </span>
 
   <!-- Hidden abstract block -->
@@ -1477,7 +1548,9 @@
   title = {Adoption and Evolution of Code Style and Best Programming Practices in Open-Source Projects},
   booktitle = {Proceedings of the 41st IEEE International Conference on Software Maintenance and Evolution (ICSME)},
   year = {2025},
-  publisher = {IEEE}
+  publisher = {IEEE},
+  pages = {187--198},
+  doi = {10.1109/ICSME64153.2025.00026}
 }
 </p>
   </span>
@@ -1491,8 +1564,9 @@
 <div id="ravi2025llmloop">
   
       
-    <span class="title">LLMLOOP: Improving LLM-Generated Code and Tests through Automated Iterative Feedback Loops</span>
-    
+        <span class="title">                <a href="http://www.doi.org/10.1109/ICSME64153.2025.00109" target="_blank">LLMLOOP: Improving LLM-Generated Code and Tests through Automated Iterative Feedback Loops</a> 
+</span>
+  
     <span class="author">
       
         
@@ -1564,6 +1638,8 @@
     
 
     
+    <em>, pages 930–934</em>
+    
     
     <em>, 2025</em>
     
@@ -1592,6 +1668,8 @@
     [<a href="https://github.com/ravinravi03/LLMLOOP" target="_blank">Tool/Data</a>]
   
       
+    [<a href="http://www.doi.org/10.1109/ICSME64153.2025.00109" target="_blank">DOI</a>]
+  
   </span>
 
   <!-- Hidden abstract block -->
@@ -1606,7 +1684,9 @@
   author = {Ravi, Ravin and Bradshaw, Dylan and Ruberto, Stefano and Jahangirova, Gunel and Terragni, Valerio},
   booktitle = {Proceedings of the 41st IEEE International Conference on Software Maintenance and Evolution (ICSME)},
   year = {2025},
-  publisher = {IEEE}
+  publisher = {IEEE},
+  pages = {930--934},
+  doi = {10.1109/ICSME64153.2025.00109}
 }
 </p>
   </span>
