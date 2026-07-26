@@ -1,3 +1,17 @@
+@ARTICLE{11557461,
+  author={Donato, Benedetta and Hagar-Dent, Noah and Worsnop, Aaron and Mariani, Leonardo and Terragni, Valerio},
+  journal={IEEE Software}, 
+  title={An Evaluation of Role-Based Multi-Agent Code Generation on Repository-Scale Problems}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-8},
+  pdf = {donato-ieee-software-2026.pdf},
+  abstract  = { Large Language Models (LLMs) can generate high-quality code for narrow tasks, but reliably producing coherent, complex systems remains challenging due to, for instance, limited project-level context and hallucinations. This paper investigates the extent to which a multi-agent system for code generation, driven by a structured Software Requirements Specification (SRS), can overcome these limitations, paving the way for large-scale code generation. We evaluated this system on twelve Java repositories of different complexity, discovering that multi-agent systems can generate code that is more similar to the developers’ code compared to the code produced by individual LLMs, while also revealing a substantial gap between the code produced by agents and the code produced by developers. },
+  keywords={Codes;Large language models;Modeling;Planning;Educational institutions;Software engineering;Permission;Weighted sum model;Timing;Measurement},
+  doi={10.1109/MS.2026.3701516}}
+
+
 @article{terragni2026untestable,
   title   = {From Untestable to Testable: Metamorphic Testing in the Age of {LLM}s},
   author  = {Terragni, Valerio},
@@ -29,8 +43,9 @@
   booktitle = {IEEE Conference on Software Testing, Verification and Validation Workshop},
   year      = {2026},
   series    = {AIST 2026},
-abstract = {Large Language Models (LLMs) have recently shown strong potential for automated unit test generation. This has motivated us to investigate whether developer-defined test doubles (commonly referred to as mocks) available in existing test suites can be leveraged to improve LLM-driven test generation. To this end, we propose MOCKMILL, an LLM-based technique and tool that generates test cases by exploiting mocking information automatically extracted from developer-written tests. MOCKMILL targets components that are replaced by test doubles in existing tests and uses the encoded stubbings and interaction expectations to guide test generation, combined with an iterative generation- and-repair process to ensure executable tests. We evaluated MOCKMILL on 10 open-source classes from six JAVA projects using four LLMs, and compared the generated tests with existing project tests and tests produced by baseline approaches. The results show that MOCKMILL’s tests cover lines of code and kill mutants that existing tests and baseline-generated tests miss. Overall, our findings provide preliminary evidence that leveraging mocking information is a complementary and effective way to enhance LLM-based test generation.},
+  abstract = {Large Language Models (LLMs) have recently shown strong potential for automated unit test generation. This has motivated us to investigate whether developer-defined test doubles (commonly referred to as mocks) available in existing test suites can be leveraged to improve LLM-driven test generation. To this end, we propose MOCKMILL, an LLM-based technique and tool that generates test cases by exploiting mocking information automatically extracted from developer-written tests. MOCKMILL targets components that are replaced by test doubles in existing tests and uses the encoded stubbings and interaction expectations to guide test generation, combined with an iterative generation- and-repair process to ensure executable tests. We evaluated MOCKMILL on 10 open-source classes from six JAVA projects using four LLMs, and compared the generated tests with existing project tests and tests produced by baseline approaches. The results show that MOCKMILL’s tests cover lines of code and kill mutants that existing tests and baseline-generated tests miss. Overall, our findings provide preliminary evidence that leveraging mocking information is a complementary and effective way to enhance LLM-based test generation.},
   pdf       = {lee-aist-2026.pdf},
+  doi={10.1109/ICSTW72326.2026.00014},
   code      = {https://zenodo.org/records/19490390},
 }
 
@@ -40,6 +55,9 @@ abstract = {Large Language Models (LLMs) have recently shown strong potential fo
   booktitle = {3rd {IEEE/ACM} International Conference on AI-powered Software - Benchmark and Dataset Track},
   year      = {2026},
   series    = {AIware 2026},
+  doi = {10.1145/3805760.3814930},
+  pages = {376–379},
+  abstract = {Reproducible independent rebuilds strengthen software supply-chain integrity by recreating the original build environment and enforcing bitwise equivalence between artifacts. However, this approach implicitly assumes a trustworthy toolchain and can fail under adversarial manipulation of the build process itself (e.g., the Ken Thompson attack). Prior work has explored introducing diversity across build environments to reduce reliance on any single toolchain, and has proposed AI-driven methods to establish behavioural equivalence while tolerating benign build variability in the Java ecosystem. In this work, we extend this line of research to Rust and present RustBuildEq, a benchmark for training and evaluating binary equivalence classier models under realistic build variability. We curate a large corpus of crates drawn from the top 20\% of the crates.io ecosystem and construct datasets of equivalent (EQ) and non-equivalent (NEQ) pairs with rich provenance metadata. EQ pairs are generated from identical source revisions under varying toolchain versions and build configurations, while NEQ pairs are derived from AST rewrites or API-breaking changes across versions. Many rust crates rely heavily on generics and cannot be compiled into binaries without specifying concrete types; to address this, we develop an automated approach that combines heuristic type instantiation, witness-type synthesis, and an iterative AI repair loop. RustBuildEq comprises 19,184,671 EQ records and 273,848,531 NEQ records, and includes a Python API for dataset navigation. The dataset provides large-scale ground truth for training and evaluating AI-driven models for reasoning binary equivalence and is publicly available at https://doi.org/10.5281/zenodo.19244908.},
   code      = {https://doi.org/10.5281/zenodo.19244908}
 }
 
